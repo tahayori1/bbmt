@@ -1,8 +1,20 @@
-Of course. Here is a comprehensive, single-file website template for Bozorgi Group, built with expert principles in design, user experience, and SEO.
+Of course! Here is a high-quality, professional, and fully responsive website template for Bozorgi Group, built with HTML, Tailwind CSS, and a touch of JavaScript.
 
-This template includes a sticky header, a captivating hero section, detailed content areas for products, company history, and philanthropic efforts, and a professional dark footer. It is fully responsive, interactive, and optimized for performance and search engines.
+This design incorporates all your requirements, including brand colors, SEO best practices, a mobile-first approach, and modern UI/UX principles.
 
-Simply save the following code as an `index.html` file and open it in your browser.
+### Key Features of this Template:
+*   **Fully Responsive:** Looks great on all devices, from mobile phones to large desktops.
+*   **SEO Optimized:** Includes all necessary meta tags, structured data (JSON-LD), and semantic HTML for high search engine visibility.
+*   **High Performance:** Uses lazy loading for images and optimized assets for fast load times.
+*   **Modern & Professional Design:** Clean layout with a sophisticated color palette of black, gold, and white, reflecting the premium quality of the brand.
+*   **Interactive Elements:** Smooth scrolling, a responsive navigation menu, and subtle animations enhance the user experience.
+*   **Clear CTAs:** Strategically placed "Quick Contact" and other call-to-action buttons to guide users.
+
+---
+
+### `index.html`
+
+Copy and paste the following code into a file named `index.html`.
 
 ```html
 <!DOCTYPE html>
@@ -10,115 +22,89 @@ Simply save the following code as an `index.html` file and open it in your brows
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+    <title>Bozorgi Group - Premium Building Materials Trading Since 1889</title>
+
     <!-- SEO Meta Tags -->
-    <title>Bozorgi Group | Premium Building Materials Since 1889</title>
-    <meta name="description" content="Bozorgi Group, a leading trading company since 1988, specializes in supplying high-quality building materials including MDF, HDF, Hardwood, and more. Business Without Boundary.">
-    <meta name="keywords" content="Bozorgi Group, Building Materials, MDF, HDF, Polywood, Hardwood, Chipboard, HPL, Natural Veneer, Wood Products, Dubai, UAE">
+    <meta name="description" content="Bozorgi Group, a leading building materials supplier in Dubai, offers high-quality MDF, HDF, Hardwood, and more. With a legacy since 1889, we provide global trading solutions with honesty and transparency.">
+    <meta name="keywords" content="Bozorgi Group, building materials, MDF, HDF, Polywood, Hardwood, Chipboard, HPL, Natural Veneer, wood trading, Dubai, UAE">
     <meta name="author" content="Bozorgi Group">
-    <link rel="canonical" href="https://www.bozorgigroup.com">
-    <link rel="icon" href="https://lh3.googleusercontent.com/MQ1BMU25DGoAOhOlCsZz9oQ1HYJog_nHwoKyd5XyETcxWCoOpHhgduAD65Puw8PmhOvOOrJz6n8fN_nvJb437_cFNh1RNaNKenmI41ed3amHqDdPvucCajH1nTNzudc2orCfteU-4nDogbznW0Oa2YVihzwv6gHRwaJ-eArEC9Ye0FfmbaD2vg=w1280">
+    <link rel="canonical" href="https://www.bozorgigroup.com/">
+    <link rel="icon" type="image/png" href="https://lh3.googleusercontent.com/MQ1BMU25DGoAOhOlCsZz9oQ1HYJog_nHwoKyd5XyETcxWCoOpHhgduAD65Puw8PmhOvOOrJz6n8fN_nvJb437_cFNh1RNaNKenmI41ed3amHqDdPvucCajH1nTNzudc2orCfteU-4nDogbznW0Oa2YVihzwv6gHRwaJ-eArEC9Ye0FfmbaD2vg=w1280">
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://www.bozorgigroup.com">
-    <meta property="og:title" content="Bozorgi Group | Premium Building Materials Since 1889">
-    <meta property="og:description" content="Supplying premium building materials worldwide with a legacy of quality and trust. Explore our range of MDF, HDF, Hardwood, and more.">
+    <meta property="og:url" content="https://www.bozorgigroup.com/">
+    <meta property="og:title" content="Bozorgi Group - Premium Building Materials Trading Since 1889">
+    <meta property="og:description" content="Discover premium building materials from a trusted global supplier with a rich history dating back to 1889.">
     <meta property="og:image" content="https://lh3.googleusercontent.com/MQ1BMU25DGoAOhOlCsZz9oQ1HYJog_nHwoKyd5XyETcxWCoOpHhgduAD65Puw8PmhOvOOrJz6n8fN_nvJb437_cFNh1RNaNKenmI41ed3amHqDdPvucCajH1nTNzudc2orCfteU-4nDogbznW0Oa2YVihzwv6gHRwaJ-eArEC9Ye0FfmbaD2vg=w1280">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://www.bozorgigroup.com">
-    <meta property="twitter:title" content="Bozorgi Group | Premium Building Materials Since 1889">
-    <meta property="twitter:description" content="Supplying premium building materials worldwide with a legacy of quality and trust. Explore our range of MDF, HDF, Hardwood, and more.">
+    <meta property="twitter:url" content="https://www.bozorgigroup.com/">
+    <meta property="twitter:title" content="Bozorgi Group - Premium Building Materials Trading Since 1889">
+    <meta property="twitter:description" content="Discover premium building materials from a trusted global supplier with a rich history dating back to 1889.">
     <meta property="twitter:image" content="https://lh3.googleusercontent.com/MQ1BMU25DGoAOhOlCsZz9oQ1HYJog_nHwoKyd5XyETcxWCoOpHhgduAD65Puw8PmhOvOOrJz6n8fN_nvJb437_cFNh1RNaNKenmI41ed3amHqDdPvucCajH1nTNzudc2orCfteU-4nDogbznW0Oa2YVihzwv6gHRwaJ-eArEC9Ye0FfmbaD2vg=w1280">
 
-    <!-- Tailwind CSS via CDN -->
+    <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
 
-    <!-- Custom CSS and Tailwind Configuration -->
-    <style type="text/tailwindcss">
-        @layer base {
-            body {
-                font-family: 'Poppins', sans-serif;
-            }
-            .section-padding {
-                @apply py-16 sm:py-24 px-6 lg:px-8;
-            }
-            .section-title {
-                @apply text-3xl font-bold tracking-tight text-black sm:text-4xl text-center;
-            }
-            .section-subtitle {
-                @apply mt-2 text-lg leading-8 text-gray-600 text-center;
+    <!-- Custom Styles -->
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f8f9fa;
+        }
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Montserrat', sans-serif;
+        }
+        .bg-primary-gold { background-color: #D4AF37; }
+        .text-primary-gold { color: #D4AF37; }
+        .border-primary-gold { border-color: #D4AF37; }
+        .hover\:bg-accent-bronze:hover { background-color: #B88714; }
+        
+        .hero-section {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2000&q=80');
+            background-size: cover;
+            background-position: center;
+        }
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            top: 0;
+            bottom: 0;
+            width: 4px;
+            background-color: #D4AF37;
+        }
+        @media (max-width: 768px) {
+            .timeline::before {
+                left: 20px;
             }
         }
-        @layer components {
-            .cta-button-primary {
-                @apply rounded-md bg-gold px-4 py-2.5 text-sm font-semibold text-black shadow-sm hover:bg-bronze focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold transition-colors duration-300;
-            }
-            .cta-button-secondary {
-                @apply rounded-md border border-gold px-4 py-2.5 text-sm font-semibold text-gold shadow-sm hover:bg-gold hover:text-black focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold transition-colors duration-300;
-            }
-            .nav-link {
-                @apply text-sm font-semibold leading-6 text-black hover:text-gold transition-colors;
-            }
-            .product-card {
-                @apply bg-white p-8 rounded-lg shadow-lg transform hover:-translate-y-2 transition-transform duration-300 border-t-4 border-gold;
-            }
-            .timeline-item {
-                @apply relative pl-8 sm:pl-32 py-6 group;
-            }
-            .timeline-item:last-child {
-                @apply pb-0;
-            }
-            .timeline-item::before {
-                @apply content-[''] absolute left-0 sm:left-12 top-5 w-px h-full bg-gray-300;
-            }
-            .timeline-item:last-child::before {
-                @apply h-0;
-            }
-            .timeline-marker {
-                @apply content-[''] absolute left-[-5.5px] sm:left-[42.5px] top-5 w-3 h-3 rounded-full bg-gray-300 group-hover:bg-gold transition-colors;
-            }
-
-            /* Scroll Animations */
-            .reveal {
-                opacity: 0;
-                transform: translateY(30px);
-                transition: opacity 0.6s ease-out, transform 0.6s ease-out;
-            }
-            .reveal-visible {
-                opacity: 1;
-                transform: translateY(0);
-            }
+        .fade-in {
+            opacity: 0;
+            transform: translateY(20px);
+            transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+        }
+        .fade-in.visible {
+            opacity: 1;
+            transform: translateY(0);
         }
     </style>
-    <script>
-      tailwind.config = {
-        theme: {
-          extend: {
-            colors: {
-              gold: '#D4AF37',
-              bronze: '#B88714',
-              'primary-black': '#000000',
-            }
-          }
-        }
-      }
-    </script>
-    
-    <!-- Structured Data (JSON-LD) -->
+
+    <!-- JSON-LD Structured Data -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "Organization",
       "name": "Bozorgi Group",
-      "url": "https://www.bozorgigroup.com",
+      "url": "https://www.bozorgigroup.com/",
       "logo": "https://lh3.googleusercontent.com/MQ1BMU25DGoAOhOlCsZz9oQ1HYJog_nHwoKyd5XyETcxWCoOpHhgduAD65Puw8PmhOvOOrJz6n8fN_nvJb437_cFNh1RNaNKenmI41ed3amHqDdPvucCajH1nTNzudc2orCfteU-4nDogbznW0Oa2YVihzwv6gHRwaJ-eArEC9Ye0FfmbaD2vg=w1280",
       "contactPoint": {
         "@type": "ContactPoint",
@@ -129,7 +115,7 @@ Simply save the following code as an `index.html` file and open it in your brows
       },
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "Business Bay Street . Marasi Dr Al Manara Tower 8 floor office No. 802",
+        "streetAddress": "Business Bay Street, Marasi Dr, Al Manara Tower, 8th floor, office No. 802",
         "addressLocality": "Dubai",
         "postalCode": "124361",
         "addressCountry": "AE"
@@ -138,86 +124,81 @@ Simply save the following code as an `index.html` file and open it in your brows
         "https://www.facebook.com/AliBozorgiofficial/",
         "https://x.com/aliabozorgi",
         "https://www.instagram.com/alibozorgi.uae"
-      ]
+      ],
+      "founder": {
+        "@type": "Person",
+        "name": "Bozorg Bozorgi"
+      },
+      "foundingDate": "1889",
+      "description": "Bozorgi Building Material Company, under the brand BOZORGI GROUP, has been a trading company since 1988 with roots dating back to 1889. We specialize in supplying, importing, and exporting building materials globally."
     }
     </script>
-
 </head>
-<body class="bg-gray-50 text-gray-800 antialiased">
+<body class="bg-white text-gray-800">
+
     <!-- Header -->
-    <header id="header" class="bg-white/80 backdrop-blur-md fixed top-0 left-0 right-0 z-50 transition-shadow duration-300">
-        <nav class="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
-            <a href="#home" class="flex items-center -m-1.5 p-1.5">
-                <span class="sr-only">Bozorgi Group</span>
-                <img class="h-10 w-auto" src="https://lh3.googleusercontent.com/MQ1BMU25DGoAOhOlCsZz9oQ1HYJog_nHwoKyd5XyETcxWCoOpHhgduAD65Puw8PmhOvOOrJz6n8fN_nvJb437_cFNh1RNaNKenmI41ed3amHqDdPvucCajH1nTNzudc2orCfteU-4nDogbznW0Oa2YVihzwv6gHRwaJ-eArEC9Ye0FfmbaD2vg=w1280" alt="Bozorgi Group Logo">
+    <header id="header" class="bg-black bg-opacity-80 backdrop-blur-md text-white sticky top-0 z-50 transition-all duration-300">
+        <div class="container mx-auto px-6 py-3 flex justify-between items-center">
+            <a href="#hero" class="flex items-center">
+                <img src="https://lh3.googleusercontent.com/MQ1BMU25DGoAOhOlCsZz9oQ1HYJog_nHwoKyd5XyETcxWCoOpHhgduAD65Puw8PmhOvOOrJz6n8fN_nvJb437_cFNh1RNaNKenmI41ed3amHqDdPvucCajH1nTNzudc2orCfteU-4nDogbznW0Oa2YVihzwv6gHRwaJ-eArEC9Ye0FfmbaD2vg=w1280" alt="Bozorgi Group Logo" class="h-10 md:h-12 w-auto">
             </a>
-            <div class="flex lg:hidden">
-                <button type="button" id="mobile-menu-button" class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700">
-                    <span class="sr-only">Open main menu</span>
-                    <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
-                    </svg>
-                </button>
-            </div>
-            <div class="hidden lg:flex lg:gap-x-12">
-                <a href="#home" class="nav-link nav-item">Home</a>
-                <a href="#products" class="nav-link nav-item">Products</a>
-                <a href="#about" class="nav-link nav-item">About Us</a>
-                <a href="#history" class="nav-link nav-item">Our History</a>
-                <a href="#humanity" class="nav-link nav-item">Humanity First</a>
-            </div>
-            <div class="hidden lg:flex lg:flex-1 lg:justify-end">
-                <a href="#contact" class="cta-button-primary">Quick Contact</a>
-            </div>
-        </nav>
-        <!-- Mobile menu, show/hide based on menu open state. -->
-        <div id="mobile-menu" class="hidden lg:hidden" role="dialog" aria-modal="true">
-            <div class="fixed inset-0 z-50"></div>
-            <div class="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
-                <div class="flex items-center justify-between">
-                    <a href="#home" class="-m-1.5 p-1.5">
-                        <span class="sr-only">Bozorgi Group</span>
-                        <img class="h-8 w-auto" src="https://lh3.googleusercontent.com/MQ1BMU25DGoAOhOlCsZz9oQ1HYJog_nHwoKyd5XyETcxWCoOpHhgduAD65Puw8PmhOvOOrJz6n8fN_nvJb437_cFNh1RNaNKenmI41ed3amHqDdPvucCajH1nTNzudc2orCfteU-4nDogbznW0Oa2YVihzwv6gHRwaJ-eArEC9Ye0FfmbaD2vg=w1280" alt="">
-                    </a>
-                    <button type="button" id="mobile-menu-close-button" class="-m-2.5 rounded-md p-2.5 text-gray-700">
-                        <span class="sr-only">Close menu</span>
-                        <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
-                        </svg>
-                    </button>
-                </div>
-                <div class="mt-6 flow-root">
-                    <div class="-my-6 divide-y divide-gray-500/10">
-                        <div class="space-y-2 py-6">
-                            <a href="#home" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50 mobile-nav-item">Home</a>
-                            <a href="#products" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50 mobile-nav-item">Products</a>
-                            <a href="#about" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50 mobile-nav-item">About Us</a>
-                            <a href="#history" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50 mobile-nav-item">Our History</a>
-                            <a href="#humanity" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50 mobile-nav-item">Humanity First</a>
-                        </div>
-                        <div class="py-6">
-                            <a href="#contact" class="w-full text-center cta-button-primary mobile-nav-item">Quick Contact</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <nav class="hidden lg:flex items-center space-x-8">
+                <a href="#about" class="hover:text-primary-gold transition duration-300">About Us</a>
+                <a href="#products" class="hover:text-primary-gold transition duration-300">Products</a>
+                <a href="#history" class="hover:text-primary-gold transition duration-300">History</a>
+                <a href="#humanity" class="hover:text-primary-gold transition duration-300">Humanity First</a>
+                <a href="#contact" class="bg-primary-gold text-black font-bold py-2 px-6 rounded-full hover:bg-accent-bronze transition duration-300">Quick Contact</a>
+            </nav>
+            <button id="mobile-menu-button" class="lg:hidden text-white focus:outline-none" aria-label="Open menu">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+            </button>
+        </div>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden lg:hidden bg-black bg-opacity-95">
+            <a href="#about" class="block text-center py-3 px-4 text-sm hover:bg-primary-gold hover:text-black transition duration-300">About Us</a>
+            <a href="#products" class="block text-center py-3 px-4 text-sm hover:bg-primary-gold hover:text-black transition duration-300">Products</a>
+            <a href="#history" class="block text-center py-3 px-4 text-sm hover:bg-primary-gold hover:text-black transition duration-300">History</a>
+            <a href="#humanity" class="block text-center py-3 px-4 text-sm hover:bg-primary-gold hover:text-black transition duration-300">Humanity First</a>
+            <a href="#contact" class="block text-center py-4 px-4 bg-primary-gold text-black font-bold hover:bg-accent-bronze transition duration-300">Quick Contact</a>
         </div>
     </header>
 
     <main>
         <!-- Hero Section -->
-        <section id="home" class="relative bg-black isolate pt-14">
-            <div class="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80" aria-hidden="true">
-                <div class="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#D4AF37] to-[#B88714] opacity-20 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
+        <section id="hero" class="hero-section h-screen flex items-center justify-center text-white text-center">
+            <div class="container mx-auto px-6">
+                <h1 class="text-4xl md:text-6xl lg:text-7xl font-extrabold uppercase tracking-wider mb-4 fade-in">A Legacy of Quality</h1>
+                <p class="text-lg md:text-2xl mb-8 max-w-3xl mx-auto font-light fade-in" style="transition-delay: 200ms;">Delivering premium building materials and global trading solutions since 1889.</p>
+                <div class="space-x-4 fade-in" style="transition-delay: 400ms;">
+                    <a href="#products" class="bg-primary-gold text-black font-bold py-3 px-8 rounded-full hover:bg-accent-bronze transition duration-300 text-lg">Our Products</a>
+                    <a href="#contact" class="border-2 border-primary-gold text-white font-bold py-3 px-8 rounded-full hover:bg-primary-gold hover:text-black transition duration-300 text-lg">Request a Quote</a>
+                </div>
             </div>
-            <div class="py-24 sm:py-32 lg:pb-40">
-                <div class="mx-auto max-w-7xl px-6 lg:px-8">
-                    <div class="mx-auto max-w-3xl text-center">
-                        <h1 class="text-4xl font-bold tracking-tight text-white sm:text-6xl">Building on a Legacy of Quality</h1>
-                        <p class="mt-6 text-lg leading-8 text-gray-300">"Business Without Boundary" — Supplying premium wood and building materials worldwide since 1889, blending tradition with modern excellence.</p>
-                        <div class="mt-10 flex items-center justify-center gap-x-6">
-                            <a href="#products" class="cta-button-primary">Our Products</a>
-                            <a href="#about" class="cta-button-secondary">Learn More &rarr;</a>
+        </section>
+
+        <!-- About Us Section -->
+        <section id="about" class="py-20 md:py-32 bg-gray-50">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-16">
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4 fade-in">Business Without Boundary</h2>
+                    <div class="w-24 h-1 bg-primary-gold mx-auto fade-in"></div>
+                </div>
+                <div class="grid md:grid-cols-2 gap-12 items-center">
+                    <div class="fade-in">
+                        <img src="https://images.unsplash.com/photo-1581092921462-205217a3472c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1287&q=80" alt="Modern business operations" class="rounded-lg shadow-2xl w-full h-auto object-cover">
+                    </div>
+                    <div class="fade-in" style="transition-delay: 200ms;">
+                        <p class="mb-4 text-gray-600">Bozorgi Building Material Company, has operated under the motto “Business Without Boundary“ since 1988. We specialize in trading, exporting, and importing authorized goods worldwide, with a core focus on building materials.</p>
+                        <p class="mb-6 text-gray-600">With decades of successful experience, we pride ourselves on our loyal customers and strong relationships with refineries and petrochemicals, ensuring we can meet any demand. Our competitive advantage is our customer-centric approach, creating win-win relationships built on trust and reliability.</p>
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                            <div>
+                                <h3 class="font-bold text-xl mb-2 text-gray-800">Our Vision</h3>
+                                <p class="text-gray-600">To be a leading business and trading company in building materials by upholding our values of honesty and transparency.</p>
+                            </div>
+                            <div>
+                                <h3 class="font-bold text-xl mb-2 text-gray-800">Our Mission</h3>
+                                <p class="text-gray-600">To supply the best building materials, services, and prices to satisfy customers and expand our global reach using modern business systems.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -225,117 +206,130 @@ Simply save the following code as an `index.html` file and open it in your brows
         </section>
 
         <!-- Products Section -->
-        <section id="products" class="section-padding bg-white">
-            <div class="mx-auto max-w-7xl">
-                <div class="text-center reveal">
-                    <h2 class="section-title">Our Premium Product Range</h2>
-                    <p class="section-subtitle">Engineered for excellence, our materials are the foundation of quality construction.</p>
+        <section id="products" class="py-20 md:py-32 bg-white">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-16">
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4 fade-in">Our Premium Product Range</h2>
+                    <div class="w-24 h-1 bg-primary-gold mx-auto fade-in"></div>
                 </div>
-                <div class="mt-16 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
-                    <div class="product-card reveal">
-                        <h3 class="text-xl font-semibold text-black">MDF</h3>
-                        <p class="mt-2 text-gray-600">Medium-Density Fibreboard, an engineered wood product made from broken down hardwood or softwood residuals, wax, and a resin binder.</p>
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
+                    <!-- Product Card -->
+                    <div class="bg-gray-50 rounded-lg shadow-lg overflow-hidden group transform hover:-translate-y-2 transition-transform duration-300 fade-in">
+                        <img loading="lazy" src="https://images.unsplash.com/photo-1620921098595-32e6a39b3a32?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1287&q=80" alt="MDF boards stacked" class="w-full h-56 object-cover">
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold mb-2">MDF</h3>
+                            <p class="text-gray-600 text-sm">Engineered wood from broken down hardwood or softwood residuals, combined with wax and resin.</p>
+                        </div>
                     </div>
-                    <div class="product-card reveal" style="transition-delay: 100ms;">
-                        <h3 class="text-xl font-semibold text-black">HDF</h3>
-                        <p class="mt-2 text-gray-600">High-Density Fibreboard (Hardboard) is a type of fiberboard, which is an engineered wood product known for its durability and strength.</p>
+                    <!-- Product Card -->
+                    <div class="bg-gray-50 rounded-lg shadow-lg overflow-hidden group transform hover:-translate-y-2 transition-transform duration-300 fade-in" style="transition-delay: 100ms;">
+                        <img loading="lazy" src="https://images.unsplash.com/photo-1595475858853-2941151a669e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1287&q=80" alt="HDF material" class="w-full h-56 object-cover">
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold mb-2">HDF</h3>
+                            <p class="text-gray-600 text-sm">High-density fiberboard, also known as hardboard, is a durable engineered wood product.</p>
+                        </div>
                     </div>
-                    <div class="product-card reveal" style="transition-delay: 200ms;">
-                        <h3 class="text-xl font-semibold text-black">POLYWOOD</h3>
-                        <p class="mt-2 text-gray-600">Made from thermoformed plastics and derived from post-consumer bottle waste. A sustainable and highly durable choice.</p>
+                     <!-- Product Card -->
+                    <div class="bg-gray-50 rounded-lg shadow-lg overflow-hidden group transform hover:-translate-y-2 transition-transform duration-300 fade-in" style="transition-delay: 200ms;">
+                        <img loading="lazy" src="https://images.unsplash.com/photo-1604964665042-49a027251756?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1287&q=80" alt="Polywood material" class="w-full h-56 object-cover">
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold mb-2">POLYWOOD</h3>
+                            <p class="text-gray-600 text-sm">Made from thermoformed plastics derived from post-consumer bottle waste, such as milk and detergent bottles.</p>
+                        </div>
                     </div>
-                    <div class="product-card reveal" style="transition-delay: 0ms;">
-                        <h3 class="text-xl font-semibold text-black">HARDWOOD</h3>
-                        <p class="mt-2 text-gray-600">Sourced from dicot trees in broad-leaved temperate and tropical forests. Known for its natural beauty and long-lasting performance.</p>
+                     <!-- Product Card -->
+                    <div class="bg-gray-50 rounded-lg shadow-lg overflow-hidden group transform hover:-translate-y-2 transition-transform duration-300 fade-in" style="transition-delay: 300ms;">
+                        <img loading="lazy" src="https://images.unsplash.com/photo-1616047006789-b7af5afb8c20?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1287&q=80" alt="Hardwood planks" class="w-full h-56 object-cover">
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold mb-2">HARDWOOD</h3>
+                            <p class="text-gray-600 text-sm">Wood from dicot trees, found in broad-leaved temperate and tropical forests. Known for its durability.</p>
+                        </div>
                     </div>
-                    <div class="product-card reveal" style="transition-delay: 100ms;">
-                        <h3 class="text-xl font-semibold text-black">CHIPBOARD</h3>
-                        <p class="mt-2 text-gray-600">Rigid sheets made from compressed wood chips and resin, often coated or veneered, used widely in furniture and buildings.</p>
+                     <!-- Product Card -->
+                     <div class="bg-gray-50 rounded-lg shadow-lg overflow-hidden group transform hover:-translate-y-2 transition-transform duration-300 fade-in">
+                        <img loading="lazy" src="https://images.unsplash.com/photo-1542242194-6301b0b5389a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1287&q=80" alt="Chipboard texture" class="w-full h-56 object-cover">
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold mb-2">CHIPBOARD</h3>
+                            <p class="text-gray-600 text-sm">Rigid sheets from compressed wood chips and resin, often coated or veneered for furniture and buildings.</p>
+                        </div>
                     </div>
-                    <div class="product-card reveal" style="transition-delay: 200ms;">
-                        <h3 class="text-xl font-semibold text-black">HPL & Natural Veneer</h3>
-                        <p class="mt-2 text-gray-600">High-Pressure Decorative Laminates and thin slices of natural wood, perfect for furniture surfaces, wall paneling, and doors.</p>
+                     <!-- Product Card -->
+                     <div class="bg-gray-50 rounded-lg shadow-lg overflow-hidden group transform hover:-translate-y-2 transition-transform duration-300 fade-in" style="transition-delay: 100ms;">
+                        <img loading="lazy" src="https://images.unsplash.com/photo-1617103994332-9c9786a51270?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1335&q=80" alt="HPL laminate surface" class="w-full h-56 object-cover">
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold mb-2">HPL</h3>
+                            <p class="text-gray-600 text-sm">High-Pressure Decorative laminates used as furniture surface materials or wall paneling.</p>
+                        </div>
+                    </div>
+                     <!-- Product Card -->
+                     <div class="bg-gray-50 rounded-lg shadow-lg overflow-hidden group transform hover:-translate-y-2 transition-transform duration-300 fade-in" style="transition-delay: 200ms;">
+                        <img loading="lazy" src="https://images.unsplash.com/photo-1593305885472-59c3a333069c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1287&q=80" alt="Natural wood veneer" class="w-full h-56 object-cover">
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold mb-2">NATURAL VENEER</h3>
+                            <p class="text-gray-600 text-sm">Thin slices of wood, usually thinner than 3 mm, glued onto core panels for doors, cabinets, and furniture.</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- About Us Section -->
-        <section id="about" class="section-padding">
-            <div class="mx-auto max-w-7xl">
-                <div class="grid grid-cols-1 gap-y-16 lg:grid-cols-2 lg:gap-x-16">
-                    <div class="reveal">
-                        <h2 class="text-3xl font-bold tracking-tight text-black sm:text-4xl text-left">About Bozorgi Group</h2>
-                        <p class="mt-4 text-gray-600">Bozorgi Building Material Company, operating under the brand BOZORGI GROUP since 1988, was founded on the motto “Business Without Boundary“. We specialize in the global trade, export, and import of authorized goods, with a core focus on high-quality building materials.</p>
-                        <p class="mt-4 text-gray-600">Our competitive advantage lies in our customer-centric approach, building win-win relationships, and leveraging a vast network of suppliers to meet demands efficiently. The trust of our customers and suppliers is our greatest asset and the cornerstone of our strength.</p>
-                        <a href="#contact" class="mt-6 inline-block cta-button-primary">Partner with Us</a>
-                    </div>
-                    <div class="space-y-8 reveal" style="transition-delay: 200ms;">
-                        <div class="bg-white p-6 rounded-lg shadow-md border-l-4 border-gold">
-                            <h3 class="text-lg font-semibold text-black">Our Vision</h3>
-                            <p class="mt-2 text-gray-600">To be a leading business and trading company in Building Materials by upholding our values of honesty and transparency on both national and international fronts.</p>
-                        </div>
-                        <div class="bg-white p-6 rounded-lg shadow-md border-l-4 border-bronze">
-                            <h3 class="text-lg font-semibold text-black">Our Mission</h3>
-                            <p class="mt-2 text-gray-600">To supply premium building materials with the best services and prices, satisfying our customers and expanding our business through experienced teams and modern systems.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
 
         <!-- History Section -->
-        <section id="history" class="section-padding bg-white">
-            <div class="mx-auto max-w-4xl">
-                <div class="text-center reveal">
-                    <h2 class="section-title">A Legacy Forged Through Generations</h2>
-                    <p class="section-subtitle">Our history is the bedrock of our business. A family tree rooted in timber since 1889.</p>
+        <section id="history" class="py-20 md:py-32 bg-gray-900 text-white">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-16">
+                    <h2 class="text-3xl md:text-4xl font-bold mb-4 fade-in">A Legacy Spanning Generations</h2>
+                    <p class="text-gray-400 max-w-2xl mx-auto fade-in">The Bozorgi family's business tree from 1889 to the present day.</p>
                 </div>
-                <div class="mt-16 flow-root">
-                    <div role="list" class="-mb-8">
-                        <!-- Timeline Item -->
-                        <div class="timeline-item reveal">
-                           <span class="timeline-marker"></span>
-                            <div class="flex-grow sm:ml-12">
-                                <p class="text-sm text-gray-500">1889 - 1951</p>
-                                <h4 class="font-bold text-lg text-black mt-1">Bozorg Bozorgi</h4>
-                                <p class="text-gray-600">Founder of the timber business, laying the groundwork for a century-spanning legacy.</p>
+                <!-- Timeline -->
+                <div class="relative timeline max-w-4xl mx-auto">
+                    <!-- Timeline Item -->
+                    <div class="mb-8 flex md:justify-end md:pr-10 relative fade-in">
+                        <div class="md:w-1/2">
+                            <div class="bg-gray-800 p-6 rounded-lg shadow-lg border-l-4 border-primary-gold">
+                                <p class="text-primary-gold font-bold text-lg">1889 - 1951</p>
+                                <h3 class="text-2xl font-bold mt-1">BOZORG BOZORGI</h3>
+                                <p class="text-gray-300 mt-2">Founder of the timber business, laying the foundation for generations to come.</p>
                             </div>
                         </div>
-                        <!-- Timeline Item -->
-                        <div class="timeline-item reveal">
-                           <span class="timeline-marker"></span>
-                            <div class="flex-grow sm:ml-12">
-                                <p class="text-sm text-gray-500">1909 - 1989</p>
-                                <h4 class="font-bold text-lg text-black mt-1">Aliasghar Bozorgi</h4>
-                                <p class="text-gray-600">Transformed the local hometown business with timber, beginning its journey of growth.</p>
+                    </div>
+                    <!-- Timeline Item -->
+                    <div class="mb-8 flex md:justify-start md:pl-10 relative fade-in">
+                        <div class="md:w-1/2">
+                           <div class="bg-gray-800 p-6 rounded-lg shadow-lg border-r-4 md:border-r-0 md:border-l-4 border-primary-gold">
+                                <p class="text-primary-gold font-bold text-lg">1909 - 1989</p>
+                                <h3 class="text-2xl font-bold mt-1">ALIASGHAR BOZORGI</h3>
+                                <p class="text-gray-300 mt-2">Started and grew the local hometown business with timber, building on his father's legacy.</p>
                             </div>
                         </div>
-                         <!-- Timeline Item -->
-                        <div class="timeline-item reveal">
-                           <span class="timeline-marker"></span>
-                            <div class="flex-grow sm:ml-12">
-                                <p class="text-sm text-gray-500">1951 - 1990</p>
-                                <h4 class="font-bold text-lg text-black mt-1">Muhammadali Bozorgi</h4>
-                                <p class="text-gray-600">Championed the expansion of the local business, increasing its reach and reputation.</p>
+                    </div>
+                    <!-- Timeline Item -->
+                    <div class="mb-8 flex md:justify-end md:pr-10 relative fade-in">
+                        <div class="md:w-1/2">
+                           <div class="bg-gray-800 p-6 rounded-lg shadow-lg border-l-4 border-primary-gold">
+                                <p class="text-primary-gold font-bold text-lg">1951 - 1990</p>
+                                <h3 class="text-2xl font-bold mt-1">MUHAMMADALI BOZORGI</h3>
+                                <p class="text-gray-300 mt-2">Expanded the local business, increasing its reach and influence in the region.</p>
                             </div>
                         </div>
-                         <!-- Timeline Item -->
-                        <div class="timeline-item reveal">
-                           <span class="timeline-marker"></span>
-                            <div class="flex-grow sm:ml-12">
-                                <p class="text-sm text-gray-500">1988 - Present</p>
-                                <h4 class="font-bold text-lg text-black mt-1">Ali Bozorgi</h4>
-                                <p class="text-gray-600">A revolutionary leader who introduced the idea of global trading with hi-tech materials, making AliBozorgi a number one brand.</p>
+                    </div>
+                    <!-- Timeline Item -->
+                    <div class="mb-8 flex md:justify-start md:pl-10 relative fade-in">
+                        <div class="md:w-1/2">
+                           <div class="bg-gray-800 p-6 rounded-lg shadow-lg border-r-4 md:border-r-0 md:border-l-4 border-primary-gold">
+                                <p class="text-primary-gold font-bold text-lg">1988 - Present</p>
+                                <h3 class="text-2xl font-bold mt-1">ALI BOZORGI</h3>
+                                <p class="text-gray-300 mt-2">A revolutionary leader who introduced global trading with hi-tech materials. CEO at BBMTCo, making the AliBozorgi brand number one.</p>
                             </div>
                         </div>
-                        <!-- Timeline Item -->
-                        <div class="timeline-item reveal">
-                           <span class="timeline-marker"></span>
-                            <div class="flex-grow sm:ml-12">
-                                <p class="text-sm text-gray-500">2020 - Now</p>
-                                <h4 class="font-bold text-lg text-black mt-1">Aliasghar Bozorgi & Bozorgi Group</h4>
-                                <p class="text-gray-600">After years as a partner and consultant, the next generation continues the legacy under the unified Bozorgi Group banner.</p>
+                    </div>
+                     <!-- Timeline Item -->
+                     <div class="mb-8 flex md:justify-end md:pr-10 relative fade-in">
+                        <div class="md:w-1/2">
+                           <div class="bg-gray-800 p-6 rounded-lg shadow-lg border-l-4 border-primary-gold">
+                                <p class="text-primary-gold font-bold text-lg">2020 - Now</p>
+                                <h3 class="text-2xl font-bold mt-1">ALIASGHAR BOZORGI</h3>
+                                <p class="text-gray-300 mt-2">Carrying the torch forward with Bozorgi Group, building on a rich family history of entrepreneurship and integrity.</p>
                             </div>
                         </div>
                     </div>
@@ -343,24 +337,31 @@ Simply save the following code as an `index.html` file and open it in your brows
             </div>
         </section>
 
+
         <!-- Humanity First Section -->
-        <section id="humanity" class="section-padding">
-            <div class="mx-auto max-w-7xl">
-                <div class="text-center reveal">
-                     <h2 class="text-3xl font-bold tracking-tight text-gold sm:text-4xl text-center">HUMANITY FIRST!</h2>
-                    <p class="section-subtitle">We believe in sharing our success with the community. It's not just business; it's about building a better world.</p>
+        <section id="humanity" class="py-20 md:py-32 bg-gray-50">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-16">
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4 fade-in">Humanity First!</h2>
+                     <p class="text-gray-600 max-w-2xl mx-auto fade-in">We believe in sharing our success with the community and supporting causes that make a difference.</p>
                 </div>
-                <div class="mt-16 grid grid-cols-1 gap-8 md:grid-cols-2">
-                    <div class="bg-white p-8 rounded-lg shadow-md reveal">
-                         <img src="https://images.unsplash.com/photo-1581093450021-4a7360e9a1local?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Abu-Ali Sina Hospital" class="rounded-md object-cover h-48 w-full mb-6" loading="lazy" width="500" height="300">
-                        <h3 class="text-xl font-semibold text-black">Supporting Abu-Ali Sina Hospital</h3>
-                        <p class="mt-2 text-gray-600">We proudly support the Organ Transplantation Center at Abu Ali Sina Hospital, aiding their vital work in saving lives through efficient organ transplantation.</p>
-                        <a href="http://en.abualisina.net" target="_blank" rel="noopener noreferrer" class="font-semibold text-gold hover:text-bronze mt-4 inline-block">Visit Website &rarr;</a>
+                <div class="grid md:grid-cols-2 gap-10 max-w-5xl mx-auto">
+                    <!-- Charity Card 1 -->
+                    <div class="bg-white p-8 rounded-lg shadow-xl text-center transform hover:scale-105 transition-transform duration-300 fade-in">
+                        <div class="text-primary-gold mb-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-16 w-16 mx-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1"><path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+                        </div>
+                        <h3 class="text-2xl font-bold mb-3">Supporting Abu-Ali Sina Hospital</h3>
+                        <p class="text-gray-600 mb-6">Contributing to the establishment of an efficient organ transplant center to help the increasing number of patients in need.</p>
+                        <a href="http://en.abualisina.net" target="_blank" rel="noopener noreferrer" class="font-bold text-primary-gold hover:text-accent-bronze transition">Visit Website &rarr;</a>
                     </div>
-                    <div class="bg-white p-8 rounded-lg shadow-md reveal" style="transition-delay: 200ms;">
-                        <img src="https://images.unsplash.com/photo-1562774053-701939374585?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1172&q=80" alt="Mohammad Ali Bozorgi Highschool" class="rounded-md object-cover h-48 w-full mb-6" loading="lazy" width="500" height="300">
-                        <h3 class="text-xl font-semibold text-black">Mohammad Ali Bozorgi Highschool</h3>
-                        <p class="mt-2 text-gray-600">Founded in 1996 in Shiraz by Bozorgi Group, this high school is our commitment to empowering the next generation through education.</p>
+                    <!-- Charity Card 2 -->
+                    <div class="bg-white p-8 rounded-lg shadow-xl text-center transform hover:scale-105 transition-transform duration-300 fade-in" style="transition-delay: 200ms;">
+                        <div class="text-primary-gold mb-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-16 w-16 mx-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1"><path d="M12 14l9-5-9-5-9 5 9 5z" /><path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-5.998 12.078 12.078 0 01.665-6.479L12 14z" /><path stroke-linecap="round" stroke-linejoin="round" d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-5.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222 4 2.222V20M12 12.778L16.748 10 12 7.222 7.252 10 12 12.778z" /></svg>
+                        </div>
+                        <h3 class="text-2xl font-bold mb-3">Mohammad Ali Bozorgi Highschool</h3>
+                        <p class="text-gray-600 mb-6">Founded in 1996 in Shiraz by Bozorgi Group to invest in the future by providing quality education for the next generation.</p>
                     </div>
                 </div>
             </div>
@@ -368,149 +369,111 @@ Simply save the following code as an `index.html` file and open it in your brows
     </main>
 
     <!-- Footer -->
-    <footer id="contact" class="bg-primary-black text-white section-padding" aria-labelledby="footer-heading">
-        <h2 id="footer-heading" class="sr-only">Footer</h2>
-        <div class="mx-auto max-w-7xl">
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
-                <!-- Company Info -->
-                <div class="md:col-span-2 lg:col-span-1">
-                    <img class="h-12 w-auto" src="https://lh3.googleusercontent.com/MQ1BMU25DGoAOhOlCsZz9oQ1HYJog_nHwoKyd5XyETcxWCoOpHhgduAD65Puw8PmhOvOOrJz6n8fN_nvJb437_cFNh1RNaNKenmI41ed3amHqDdPvucCajH1nTNzudc2orCfteU-4nDogbznW0Oa2YVihzwv6gHRwaJ-eArEC9Ye0FfmbaD2vg=w1280" alt="Bozorgi Group Logo">
-                    <p class="mt-4 text-sm leading-6 text-gray-300">A global leader in building materials trading, committed to excellence, integrity, and customer satisfaction since 1988.</p>
+    <footer id="contact" class="bg-black text-white pt-20 pb-8">
+        <div class="container mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 mb-10">
+                <!-- Column 1: About -->
+                <div class="fade-in">
+                    <img src="https://lh3.googleusercontent.com/MQ1BMU25DGoAOhOlCsZz9oQ1HYJog_nHwoKyd5XyETcxWCoOpHhgduAD65Puw8PmhOvOOrJz6n8fN_nvJb437_cFNh1RNaNKenmI41ed3amHqDdPvucCajH1nTNzudc2orCfteU-4nDogbznW0Oa2YVihzwv6gHRwaJ-eArEC9Ye0FfmbaD2vg=w1280" alt="Bozorgi Group Logo" class="h-12 mb-4">
+                    <p class="text-gray-400">A global leader in building materials trading, committed to quality, integrity, and customer satisfaction since 1889.</p>
                 </div>
-                <!-- Contact Details -->
-                <div>
-                   <h3 class="text-base font-semibold leading-6 text-gold">Get in Touch</h3>
-                   <ul role="list" class="mt-6 space-y-4">
-                       <li class="flex items-start">
-                           <svg class="h-5 w-5 text-gold mt-1 flex-shrink-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M9.69 18.933l.003.001C9.89 19.02 10 19 10 19s.11.02.308-.066l.002-.001.006-.003.018-.008a5.741 5.741 0 00.281-.14c.186-.1.4-.27.615-.454L16 14.55V9.5a6 6 0 10-12 0v5.05l5.095 4.095zM10 12a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd" /></svg>
-                           <span class="ml-3 text-sm text-gray-300">Dubai, UAE <br>Business Bay, Marasi Dr <br>Al Manara Tower, 8th Floor, Office 802 <br>P.O.Box: 124361</span>
-                       </li>
-                       <li class="flex items-center">
-                            <svg class="h-5 w-5 text-gold flex-shrink-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path d="M2 3.5A1.5 1.5 0 013.5 2h1.148a1.5 1.5 0 011.465 1.175l.716 3.223a1.5 1.5 0 01-1.052 1.767l-.933.267c-.41.117-.643.555-.48.95a11.542 11.542 0 006.254 6.254c.395.163.833-.07.95-.48l.267-.933a1.5 1.5 0 011.767-1.052l3.223.716A1.5 1.5 0 0118 15.352V16.5a1.5 1.5 0 01-1.5 1.5h-1.5A13.5 13.5 0 012 3.5z" /></svg>
-                            <a href="tel:+971523952892" class="ml-3 text-sm text-gray-300 hover:text-gold">+971 52 395 2892</a>
-                       </li>
-                       <li class="flex items-center">
-                             &nbsp;<span class="sr-only">Phone</span>
-                            <a href="tel:+97143213030" class="ml-9 text-sm text-gray-300 hover:text-gold">+971 4 321 3030</a>
-                       </li>
-                       <li class="flex items-center">
-                            <svg class="h-5 w-5 text-gold flex-shrink-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path d="M3 4a2 2 0 00-2 2v1.161l8.441 4.221a1.25 1.25 0 001.118 0L19 7.162V6a2 2 0 00-2-2H3z" /><path d="M19 8.839l-7.77 3.885a2.75 2.75 0 01-2.46 0L1 8.839V14a2 2 0 002 2h14a2 2 0 002-2V8.839z" /></svg>
-                            <a href="mailto:info@bozorgigroup.com" class="ml-3 text-sm text-gray-300 hover:text-gold">info@bozorgigroup.com</a>
-                       </li>
-                   </ul>
+                <!-- Column 2: Quick Links -->
+                <div class="fade-in" style="transition-delay: 100ms;">
+                    <h4 class="text-xl font-bold mb-4">Quick Links</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#about" class="text-gray-400 hover:text-primary-gold transition">About Us</a></li>
+                        <li><a href="#products" class="text-gray-400 hover:text-primary-gold transition">Our Products</a></li>
+                        <li><a href="#history" class="text-gray-400 hover:text-primary-gold transition">Our History</a></li>
+                        <li><a href="#humanity" class="text-gray-400 hover:text-primary-gold transition">Humanity First</a></li>
+                    </ul>
                 </div>
-                <!-- Quick Links -->
-                <div>
-                   <h3 class="text-base font-semibold leading-6 text-gold">Quick Links</h3>
-                   <ul role="list" class="mt-6 space-y-4">
-                       <li><a href="#products" class="text-sm leading-6 text-gray-300 hover:text-gold">Products</a></li>
-                       <li><a href="#about" class="text-sm leading-6 text-gray-300 hover:text-gold">About Us</a></li>
-                       <li><a href="#history" class="text-sm leading-6 text-gray-300 hover:text-gold">Our History</a></li>
-                       <li><a href="#humanity" class="text-sm leading-6 text-gray-300 hover:text-gold">Humanity First</a></li>
-                   </ul>
+                <!-- Column 3: Contact Info -->
+                <div class="fade-in" style="transition-delay: 200ms;">
+                    <h4 class="text-xl font-bold mb-4">Contact Us</h4>
+                    <ul class="space-y-3 text-gray-400">
+                        <li class="flex items-start">
+                             <svg class="w-5 h-5 mr-3 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+                           <span>Dubai - UAE<br>Business Bay, Al Manara Tower<br>8th floor, Office No. 802<br>P.O.Box: 124361</span>
+                        </li>
+                        <li class="flex items-center">
+                            <svg class="w-5 h-5 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path></svg>
+                            <a href="tel:+97143213030" class="hover:text-primary-gold">+971 4 321 3030</a>
+                        </li>
+                         <li class="flex items-center">
+                            <svg class="w-5 h-5 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z"></path></svg>
+                            <a href="tel:+971523952892" class="hover:text-primary-gold">+971 52 395 2892</a>
+                        </li>
+                        <li class="flex items-center">
+                            <svg class="w-5 h-5 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+                            <a href="mailto:info@bozorgigroup.com" class="hover:text-primary-gold">info@bozorgigroup.com</a>
+                        </li>
+                    </ul>
                 </div>
-                <!-- Social Media -->
-                <div>
-                   <h3 class="text-base font-semibold leading-6 text-gold">Follow Us</h3>
-                   <div class="flex space-x-6 mt-6">
-                       <a href="https://www.facebook.com/AliBozorgiofficial/" target="_blank" rel="noopener noreferrer" class="text-gray-400 hover:text-gold">
-                           <span class="sr-only">Facebook</span>
-                           <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" clip-rule="evenodd" /></svg>
-                       </a>
-                       <a href="https://www.instagram.com/alibozorgi.uae" target="_blank" rel="noopener noreferrer" class="text-gray-400 hover:text-gold">
-                           <span class="sr-only">Instagram</span>
-                           <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.024.06 1.378.06 3.808s-.012 2.784-.06 3.808c-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.024.048-1.378.06-3.808.06s-2.784-.012-3.808-.06c-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.048-1.024-.06-1.378-.06-3.808s.012-2.784.06-3.808c.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 016.345 2.525c.636-.247 1.363-.416 2.427-.465C9.794 2.013 10.148 2 12.315 2zM12 7.027a4.973 4.973 0 100 9.946 4.973 4.973 0 000-9.946zm0 8.05a3.077 3.077 0 110-6.155 3.077 3.077 0 010 6.155zM16.966 6.326a1.2 1.2 0 100 2.4 1.2 1.2 0 000-2.4z" clip-rule="evenodd" /></svg>
-                       </a>
-                       <a href="https://x.com/aliabozorgi" target="_blank" rel="noopener noreferrer" class="text-gray-400 hover:text-gold">
-                           <span class="sr-only">Twitter</span>
-                           <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M13.682 10.682L20.236 3h-1.638L13.37 9.682 9.13 3H3l6.874 9.97L3 21h1.638l5.534-6.42L15.158 21H21l-7.318-10.318zm-2.146 2.34L11.1 12.49 5.38 4.22h2.524l4.94 5.75 0.44 0.51 5.952 7.28h-2.524l-5.28-6.07z" /></svg>
-                       </a>
-                   </div>
+                 <!-- Column 4: Social -->
+                <div class="fade-in" style="transition-delay: 300ms;">
+                    <h4 class="text-xl font-bold mb-4">Follow Us</h4>
+                    <p class="text-gray-400 mb-4">Stay connected on our social networks.</p>
+                    <div class="flex space-x-4">
+                        <a href="https://www.facebook.com/AliBozorgiofficial/" target="_blank" rel="noopener noreferrer" aria-label="Facebook" class="text-gray-400 hover:text-primary-gold transition">
+                           <svg class="w-7 h-7" fill="currentColor" viewBox="0 0 24 24"><path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v2.385z"/></svg>
+                        </a>
+                        <a href="https://x.com/aliabozorgi" target="_blank" rel="noopener noreferrer" aria-label="Twitter" class="text-gray-400 hover:text-primary-gold transition">
+                            <svg class="w-7 h-7" fill="currentColor" viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+                        </a>
+                        <a href="https://www.instagram.com/alibozorgi.uae" target="_blank" rel="noopener noreferrer" aria-label="Instagram" class="text-gray-400 hover:text-primary-gold transition">
+                            <svg class="w-7 h-7" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.85s-.012 3.584-.07 4.85c-.148 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07s-3.584-.012-4.85-.07c-3.252-.148-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.85s.012-3.584.07-4.85c.148-3.225 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.85-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948s.014 3.667.072 4.947c.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072s3.667-.014 4.947-.072c4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.947s-.014-3.667-.072-4.947c-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.689-.073-4.948-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.162 6.162 6.162 6.162-2.759 6.162-6.162-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4s1.791-4 4-4 4 1.79 4 4-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44 1.441-.645 1.441-1.44c0-.795-.645-1.44-1.441-1.44z"/></svg>
+                        </a>
+                    </div>
                 </div>
             </div>
-            <div class="mt-16 border-t border-white/10 pt-8 sm:mt-20 lg:mt-24">
-                <p class="text-xs leading-5 text-gray-400">&copy; <span id="copyright-year"></span> Bozorgi Group. All rights reserved.</p>
+            <div class="border-t border-gray-800 pt-6 mt-10 text-center text-gray-500 text-sm">
+                <p>&copy; <span id="current-year"></span> Bozorgi Group. All Rights Reserved.</p>
             </div>
         </div>
     </footer>
 
-    <!-- JavaScript -->
+
     <script>
         document.addEventListener('DOMContentLoaded', function() {
-            // === Mobile Menu Functionality ===
+            // Mobile Menu Toggle
             const mobileMenuButton = document.getElementById('mobile-menu-button');
-            const mobileMenuCloseButton = document.getElementById('mobile-menu-close-button');
             const mobileMenu = document.getElementById('mobile-menu');
-            const mobileNavItems = document.querySelectorAll('.mobile-nav-item');
-
             mobileMenuButton.addEventListener('click', () => {
-                mobileMenu.classList.remove('hidden');
+                mobileMenu.classList.toggle('hidden');
             });
 
-            const closeMobileMenu = () => {
-                mobileMenu.classList.add('hidden');
-            }
-
-            mobileMenuCloseButton.addEventListener('click', closeMobileMenu);
-            mobileNavItems.forEach(item => {
-                item.addEventListener('click', closeMobileMenu);
-            });
-            
-            // === Header Shadow on Scroll ===
-            const header = document.getElementById('header');
-            window.addEventListener('scroll', () => {
-                if (window.scrollY > 10) {
-                    header.classList.add('shadow-md');
-                } else {
-                    header.classList.remove('shadow-md');
-                }
+            // Close mobile menu when a link is clicked
+            const mobileNavLinks = mobileMenu.querySelectorAll('a');
+            mobileNavLinks.forEach(link => {
+                link.addEventListener('click', () => {
+                    mobileMenu.classList.add('hidden');
+                });
             });
 
-            // === Active Nav Link Highlighting on Scroll ===
-            const sections = document.querySelectorAll('section[id]');
-            const navLinks = document.querySelectorAll('.nav-item');
+            // Set current year in footer
+            document.getElementById('current-year').textContent = new Date().getFullYear();
 
-            const observerOptions = {
-                root: null,
-                rootMargin: '0px',
-                threshold: 0.4
+            // Intersection Observer for fade-in animations
+            const faders = document.querySelectorAll('.fade-in');
+            const appearOptions = {
+                threshold: 0.2, // Trigger when 20% of the element is visible
+                rootMargin: "0px 0px -50px 0px" // Start animation a bit later
             };
 
-            const observer = new IntersectionObserver((entries) => {
+            const appearOnScroll = new IntersectionObserver(function(entries, appearOnScroll) {
                 entries.forEach(entry => {
-                    if (entry.isIntersecting) {
-                        const id = entry.target.getAttribute('id');
-                        navLinks.forEach(link => {
-                            link.classList.remove('text-gold');
-                            if (link.getAttribute('href') === `#${id}`) {
-                                link.classList.add('text-gold');
-                            }
-                        });
+                    if (!entry.isIntersecting) {
+                        return;
+                    } else {
+                        entry.target.classList.add('visible');
+                        appearOnScroll.unobserve(entry.target);
                     }
                 });
-            }, observerOptions);
+            }, appearOptions);
 
-            sections.forEach(section => {
-                observer.observe(section);
+            faders.forEach(fader => {
+                appearOnScroll.observe(fader);
             });
-
-            // === Scroll-Reveal Animations ===
-            const revealElements = document.querySelectorAll('.reveal');
-            const revealObserver = new IntersectionObserver((entries) => {
-                entries.forEach(entry => {
-                    if (entry.isIntersecting) {
-                        entry.target.classList.add('reveal-visible');
-                        revealObserver.unobserve(entry.target);
-                    }
-                });
-            }, { threshold: 0.1 });
-
-            revealElements.forEach(el => {
-                revealObserver.observe(el);
-            });
-
-            // === Set Copyright Year ===
-            document.getElementById('copyright-year').textContent = new Date().getFullYear();
         });
     </script>
 </body>
