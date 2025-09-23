@@ -61,6 +61,30 @@
         .hero-bg {
             background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://bozorgigroup.com/img/bozorgilandscapeDubai.jpg');
         }
+         /* Custom timeline positioning for mobile */
+        @media (max-width: 768px) {
+            .timeline-container .left-timeline,
+            .timeline-container .right-timeline {
+                justify-content: flex-start;
+                flex-direction: row-reverse;
+                margin-left: 0;
+                width: 100%;
+            }
+            .timeline-container .left-timeline > div:first-child,
+            .timeline-container .right-timeline > div:first-child {
+                width: 0;
+            }
+             .timeline-container .left-timeline > div:last-child,
+            .timeline-container .right-timeline > div:last-child {
+                width: calc(100% - 4rem); /* 100% minus space for dot */
+            }
+             .timeline-container .timeline-dot {
+                margin-left: -1rem; /* Adjust dot position */
+            }
+             .timeline-container .timeline-border {
+                 left: 1rem !important;
+             }
+        }
     </style>
 </head>
 <body class="bg-neutral-white text-gray-800 font-sans">
@@ -207,62 +231,97 @@
         <!-- Business History Section -->
         <section id="history" class="py-20 bg-gray-50">
             <div class="container mx-auto px-6">
-                <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 text-primary-black">Our Legacy</h2>
-                <div class="relative wrap overflow-hidden p-10 h-full">
-                    <div class="border-2-2 absolute border-opacity-20 border-primary-gold h-full border" style="left: 50%"></div>
-                    <!-- History Item -->
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 text-primary-black">Our Legacy: A Family Tree</h2>
+                <div class="relative wrap overflow-hidden p-2 md:p-10 h-full timeline-container">
+                    <div class="timeline-border border-2-2 absolute border-opacity-20 border-primary-gold h-full border" style="left: 50%"></div>
+                    
+                    <!-- History Item: Bozorg Bozorgi -->
                     <div class="mb-8 flex justify-between items-center w-full right-timeline">
                         <div class="order-1 w-5/12"></div>
-                        <div class="z-20 flex items-center order-1 bg-primary-gold shadow-xl w-8 h-8 rounded-full">
-                            <h1 class="mx-auto font-semibold text-lg text-white">5</h1>
+                        <div class="z-20 flex items-center order-1 bg-primary-gold shadow-xl w-8 h-8 rounded-full timeline-dot">
+                             <h1 class="mx-auto font-semibold text-lg text-white">5</h1>
                         </div>
                         <div class="order-1 bg-neutral-white rounded-lg shadow-xl w-5/12 px-6 py-4">
-                            <h3 class="font-bold text-primary-black text-xl">Bozorg Bozorgi (1889 - 1951)</h3>
-                            <p class="text-sm leading-snug tracking-wide text-gray-900 text-opacity-100">Founder of the original timber business, laying the groundwork for generations to come.</p>
+                            <div class="flex flex-col sm:flex-row items-start gap-4">
+                                <img src="https://bozorgigroup.com/img/bozorg%20bozorgi.gif" alt="Bozorg Bozorgi" class="w-20 h-20 rounded-full object-cover border-2 border-primary-gold flex-shrink-0">
+                                <div>
+                                    <h3 class="font-bold text-primary-black text-lg">Bozorg Bozorgi</h3>
+                                    <p class="text-sm font-semibold text-accent-bronze mb-1">1889 - 1951</p>
+                                    <p class="text-sm leading-snug text-gray-700">Founder of the original timber business, laying the groundwork for generations to come.</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                     <!-- History Item -->
+
+                    <!-- History Item: Aliasghar Bozorgi -->
                     <div class="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
                         <div class="order-1 w-5/12"></div>
-                         <div class="z-20 flex items-center order-1 bg-primary-gold shadow-xl w-8 h-8 rounded-full">
-                            <h1 class="mx-auto font-semibold text-lg text-white">4</h1>
+                        <div class="z-20 flex items-center order-1 bg-primary-gold shadow-xl w-8 h-8 rounded-full timeline-dot">
+                           <h1 class="mx-auto font-semibold text-lg text-white">4</h1>
                         </div>
                         <div class="order-1 bg-neutral-white rounded-lg shadow-xl w-5/12 px-6 py-4">
-                            <h3 class="font-bold text-primary-black text-xl">Aliasghar Bozorgi (1909 - 1989)</h3>
-                            <p class="text-sm leading-snug tracking-wide text-gray-900 text-opacity-100">Started and grew the local hometown business with timber, expanding on his father's legacy.</p>
+                             <div class="flex flex-col sm:flex-row items-start gap-4">
+                                <img src="https://bozorgigroup.com/img/Asghar%20Bozorgi.jpg" alt="Aliasghar Bozorgi" class="w-20 h-20 rounded-full object-cover border-2 border-primary-gold flex-shrink-0">
+                                <div>
+                                    <h3 class="font-bold text-primary-black text-lg">Aliasghar Bozorgi</h3>
+                                    <p class="text-sm font-semibold text-accent-bronze mb-1">1909 - 1989</p>
+                                    <p class="text-sm leading-snug text-gray-700">Started and grew the local hometown business with timber, expanding on his father's legacy.</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <!-- History Item -->
+
+                    <!-- History Item: Muhammadali Bozorgi -->
                     <div class="mb-8 flex justify-between items-center w-full right-timeline">
                         <div class="order-1 w-5/12"></div>
-                         <div class="z-20 flex items-center order-1 bg-primary-gold shadow-xl w-8 h-8 rounded-full">
-                            <h1 class="mx-auto font-semibold text-lg text-white">3</h1>
+                        <div class="z-20 flex items-center order-1 bg-primary-gold shadow-xl w-8 h-8 rounded-full timeline-dot">
+                           <h1 class="mx-auto font-semibold text-lg text-white">3</h1>
                         </div>
                         <div class="order-1 bg-neutral-white rounded-lg shadow-xl w-5/12 px-6 py-4">
-                            <h3 class="font-bold text-primary-black text-xl">Muhammadali Bozorgi (1951-1990)</h3>
-                            <p class="text-sm leading-snug tracking-wide text-gray-900 text-opacity-100">He significantly expanded the local business, increasing its reach and reputation.</p>
+                             <div class="flex flex-col sm:flex-row items-start gap-4">
+                                <img src="https://bozorgigroup.com/img/MuhammadAli%20Bozorgi.jpeg" alt="Muhammadali Bozorgi" class="w-20 h-20 rounded-full object-cover border-2 border-primary-gold flex-shrink-0">
+                                <div>
+                                    <h3 class="font-bold text-primary-black text-lg">Muhammadali Bozorgi</h3>
+                                    <p class="text-sm font-semibold text-accent-bronze mb-1">1951 - 1990</p>
+                                    <p class="text-sm leading-snug text-gray-700">He significantly expanded the local business, increasing its reach and reputation.</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                     <!-- History Item -->
+
+                    <!-- History Item: Ali Bozorgi -->
                     <div class="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
                         <div class="order-1 w-5/12"></div>
-                         <div class="z-20 flex items-center order-1 bg-primary-gold shadow-xl w-8 h-8 rounded-full">
-                            <h1 class="mx-auto font-semibold text-lg text-white">2</h1>
+                        <div class="z-20 flex items-center order-1 bg-primary-gold shadow-xl w-8 h-8 rounded-full timeline-dot">
+                           <h1 class="mx-auto font-semibold text-lg text-white">2</h1>
                         </div>
                         <div class="order-1 bg-neutral-white rounded-lg shadow-xl w-5/12 px-6 py-4">
-                            <h3 class="font-bold text-primary-black text-xl">Ali Bozorgi (1988 - Present)</h3>
-                            <p class="text-sm leading-snug tracking-wide text-gray-900 text-opacity-100">CEO at BBMTCo. A revolutionary leader who introduced global trading with hi-tech materials, making AliBozorgi a number one brand.</p>
+                            <div class="flex flex-col sm:flex-row items-start gap-4">
+                                <img src="https://bozorgigroup.com/img/ali%20bozorgi.jpg" alt="Ali Bozorgi" class="w-20 h-20 rounded-full object-cover border-2 border-primary-gold flex-shrink-0">
+                                <div>
+                                    <h3 class="font-bold text-primary-black text-lg">Ali Bozorgi</h3>
+                                    <p class="text-sm font-semibold text-accent-bronze mb-1">1988 - Present</p>
+                                    <p class="text-sm leading-snug text-gray-700">CEO at BBMTCo. A revolutionary leader who introduced global trading with hi-tech materials, making AliBozorgi a number one brand.</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                     <!-- History Item -->
+                    
+                    <!-- History Item: Aliasghar Bozorgi (current) -->
                     <div class="mb-8 flex justify-between items-center w-full right-timeline">
                         <div class="order-1 w-5/12"></div>
-                        <div class="z-20 flex items-center order-1 bg-primary-gold shadow-xl w-8 h-8 rounded-full">
-                            <h1 class="mx-auto font-semibold text-lg text-white">1</h1>
+                        <div class="z-20 flex items-center order-1 bg-primary-gold shadow-xl w-8 h-8 rounded-full timeline-dot">
+                           <h1 class="mx-auto font-semibold text-lg text-white">1</h1>
                         </div>
                         <div class="order-1 bg-neutral-white rounded-lg shadow-xl w-5/12 px-6 py-4">
-                            <h3 class="font-bold text-primary-black text-xl">Aliasghar Bozorgi (2001 - Present)</h3>
-                            <p class="text-sm leading-snug tracking-wide text-gray-900 text-opacity-100">From partner and consultant at BBMTCo to leading Bozorgi Group from 2020, continuing the family's innovative spirit.</p>
+                           <div class="flex flex-col sm:flex-row items-start gap-4">
+                                <img src="https://bozorgigroup.com/img/ali%20asghar%20bozorgi.jpeg" alt="Aliasghar Bozorgi" class="w-20 h-20 rounded-full object-cover border-2 border-primary-gold flex-shrink-0">
+                                <div>
+                                    <h3 class="font-bold text-primary-black text-lg">Aliasghar Bozorgi</h3>
+                                    <p class="text-sm font-semibold text-accent-bronze mb-1">2001 - Present</p>
+                                    <p class="text-sm leading-snug text-gray-700">From partner at BBMTCo to leading Bozorgi Group from 2020, continuing the family's innovative spirit.</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
