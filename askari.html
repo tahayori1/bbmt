@@ -4,207 +4,362 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>دوربین مداربسته برادران عسکری - فروش و نصب سیستم‌های امنیتی در شیراز</title>
-    <meta name="description" content="فروش، طراحی و نصب دوربین‌های مداربسته و دزدگیر اماکن در شیراز. انتقال تصویر، ضمانت ۲ ساله و خدمات پس از فروش. با ما تماس بگیرید.">
-    <meta name="keywords" content="دوربین مداربسته, دزدگیر اماکن, سیستم امنیتی, نصب دوربین مداربسته شیراز, برادران عسکری">
+    <title>دوربین مداربسته برادران عسکری | نصب و فروش سیستم‌های امنیتی در شیراز</title>
+    <meta name="description" content="طراحی، فروش و نصب تخصصی دوربین‌های مداربسته و دزدگیر اماکن در شیراز. با ضمانت ۲ ساله تعویض و پشتیبانی مادام‌العمر. برای مشاوره رایگان با ما تماس بگیرید.">
+    <meta name="keywords" content="دوربین مداربسته شیراز, نصب دوربین مداربسته, قیمت دوربین مداربسته, دزدگیر اماکن شیراز, سیستم امنیتی, برادران عسکری, انتقال تصویر موبایل">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🛡️</text></svg>">
+
+    <!-- Tailwind CSS v4 -->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- LocalBusiness Schema for SEO -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "دوربین مداربسته برادران عسکری",
+      "image": "",
+      "@id": "http://askarimarket.ir",
+      "url": "http://askarimarket.ir",
+      "telephone": "+989175391396",
+      "description": "فروش، طراحی و نصب دوربین‌های مداربسته و سیستم‌های امنیتی (دزدگیر اماکن)، انتقال تصویر روی موبایل/کامپیوتر، پشتیبانی و ضمانت ۲ ساله تعویض.",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "بلوار سرباز، حدفاصل کوچه ۱۰ و ۱۲، کوچه ۱۲-الف، پلاک ۸۵ (طبقه دوم)",
+        "addressLocality": "شیراز",
+        "addressRegion": "فارس",
+        "addressCountry": "IR"
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Saturday",
+            "Sunday",
+            "Monday",
+            "Tuesday",
+            "Wednesday"
+          ],
+          "opens": "08:30",
+          "closes": "16:30"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Thursday",
+          "opens": "08:30",
+          "closes": "12:30"
+        }
+      ],
+      "sameAs": [
+        "https://www.instagram.com/askari_cctv"
+      ]
+    }
+    </script>
+    
     <style type="text/tailwindcss">
         @theme {
-            --color-primary-500: oklch(62.8% 0.17 263.74); /* A modern, friendly blue */
-            --color-primary-600: oklch(57.5% 0.18 264.41);
-            --color-primary-100: oklch(93.2% 0.04 263.74);
-            --color-secondary-500: oklch(79.3% 0.16 153.21); /* A fresh, vibrant green for trust */
-            --color-secondary-100: oklch(96.7% 0.04 153.21);
-            --color-neutral-900: oklch(27.0% 0.0 0); /* Dark text */
-            --color-neutral-700: oklch(52.0% 0.0 0);
-            --color-neutral-200: oklch(93.0% 0.0 0);
-            --color-neutral-100: oklch(98.0% 0.0 0);
-            --color-neutral-0: oklch(100% 0.0 0); /* White */
+            /* A trustworthy blue and a reassuring green palette */
+            --color-primary-500: oklch(0.6 0.15 255);      /* Main Blue */
+            --color-primary-600: oklch(0.55 0.16 255);     /* Darker Blue */
+            --color-primary-100: oklch(0.94 0.035 255);    /* Light Blue */
+            
+            --color-secondary-500: oklch(0.7 0.15 150);    /* Safe Green */
+            --color-secondary-600: oklch(0.65 0.15 150);   /* Darker Green */
+            --color-secondary-100: oklch(0.95 0.03 150);   /* Light Green */
+
+            --color-neutral-900: oklch(0.25 0.015 250); /* Dark text, slightly blueish */
+            --color-neutral-700: oklch(0.5 0.01 250);
+            --color-neutral-200: oklch(0.95 0.005 250);
+            --color-neutral-100: oklch(0.98 0.002 250);
+            --color-neutral-0: oklch(1 0 0); /* White */
         }
 
-        html {
-            scroll-behavior: smooth;
-        }
-
+        html { scroll-behavior: smooth; }
         body {
             font-family: 'Vazirmatn', sans-serif;
             background-color: var(--color-neutral-0);
             color: var(--color-neutral-900);
         }
+        ::selection { background-color: var(--color-primary-100); }
 
-        .cta-button {
-            @apply bg-primary-500 text-neutral-0 font-bold py-3 px-6 rounded-lg shadow-lg transition-transform transform hover:scale-105 hover:bg-primary-600 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-[var(--tw-ring-color)/50%];
-        }
-
-        .section-title {
-            @apply text-3xl font-bold text-neutral-900 mb-4;
-        }
+        /* Buttons & Cards */
+        .cta-button { @apply bg-primary-500 text-neutral-0 font-bold py-3 px-8 rounded-lg shadow-lg transition-all duration-300 transform hover:scale-105 hover:bg-primary-600 focus:outline-none focus:ring-4 focus:ring-[var(--color-primary-500)/30%]; }
+        .section-title { @apply text-3xl md:text-4xl font-bold text-neutral-900 mb-4; }
+        .section-subtitle { @apply text-lg text-neutral-700 mb-12 max-w-3xl mx-auto leading-relaxed; }
+        .feature-card { @apply bg-neutral-0 p-6 rounded-2xl shadow-sm border border-neutral-200/50 transition-all duration-300 hover:shadow-xl hover:-translate-y-1.5 hover:border-primary-500/30; }
         
-        .section-subtitle {
-            @apply text-lg text-neutral-700 mb-12 max-w-2xl mx-auto;
-        }
-        
-        .feature-card {
-            @apply bg-neutral-0 p-6 rounded-xl shadow-md border border-neutral-200 transition-all duration-300 hover:shadow-xl hover:-translate-y-1;
-        }
+        /* FAQ Accordion Styling */
+        details > summary { list-style: none; }
+        details > summary::-webkit-details-marker { display: none; }
+        details summary .chevron { transition: transform 0.3s ease; }
+        details[open] summary .chevron { transform: rotate(180deg); }
     </style>
 </head>
-<body class="bg-neutral-100">
+<body class="bg-neutral-100/70">
 
     <!-- Header -->
-    <header class="bg-neutral-0/80 backdrop-blur-sm sticky top-0 z-50 shadow-sm">
+    <header class="bg-neutral-0/80 backdrop-blur-lg sticky top-0 z-50 shadow-sm border-b border-neutral-200/60">
         <div class="container mx-auto px-6 py-4 flex justify-between items-center">
-            <h1 class="text-xl font-bold text-primary-500">
-                <a href="#">برادران عسکری</a>
-            </h1>
-            <nav class="hidden md:flex space-x-8 space-x-reverse">
-                <a href="#services" class="text-neutral-700 hover:text-primary-500 transition">خدمات ما</a>
-                <a href="#why-us" class="text-neutral-700 hover:text-primary-500 transition">چرا ما؟</a>
-                <a href="#contact" class="text-neutral-700 hover:text-primary-500 transition">تماس با ما</a>
+            <a href="#" class="text-xl font-bold text-primary-500 flex items-center gap-2">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6"><path d="M12 2c2.479 0 4.802.951 6.559 2.708l-1.633 1.633C15.68 5.101 13.901 4.5 12 4.5c-4.136 0-7.5 3.364-7.5 7.5s3.364 7.5 7.5 7.5c1.901 0 3.68-.601 5.074-1.842l1.633 1.633C16.802 21.049 14.479 22 12 22C6.477 22 2 17.523 2 12S6.477 2 12 2zm7.153 6.353a1 1 0 0 1 1.414 0l2.121 2.121a1 1 0 0 1 0 1.414l-2.121 2.121a1 1 0 0 1-1.414-1.414L18.439 12l-1.286-1.233a1 1 0 0 1 0-1.414zM12 7.5a4.5 4.5 0 1 0 0 9 4.5 4.5 0 0 0 0-9zm0 2a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5z"></path></svg>
+                <span>برادران عسکری</span>
+            </a>
+            <nav class="hidden md:flex items-center space-x-8 space-x-reverse">
+                <a href="#services" class="text-neutral-700 hover:text-primary-500 transition font-medium">خدمات</a>
+                <a href="#process" class="text-neutral-700 hover:text-primary-500 transition font-medium">مراحل کار</a>
+                <a href="#why-us" class="text-neutral-700 hover:text-primary-500 transition font-medium">چرا ما؟</a>
+                <a href="#faq" class="text-neutral-700 hover:text-primary-500 transition font-medium">سوالات متداول</a>
+                <a href="#contact" class="text-neutral-700 hover:text-primary-500 transition font-medium">تماس با ما</a>
             </nav>
-            <a href="tel:09175391396" class="cta-button hidden md:inline-block">مشاوره رایگان</a>
+            <a href="tel:09175391396" class="cta-button hidden lg:inline-block">مشاوره رایگان</a>
             <button id="mobile-menu-button" class="md:hidden p-2 rounded-md text-neutral-700 hover:bg-primary-100 focus:outline-none">
-                 <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
             </button>
         </div>
         <!-- Mobile Menu -->
-        <div id="mobile-menu" class="hidden md:hidden px-6 pt-2 pb-4">
-            <a href="#services" class="block py-2 text-neutral-700 hover:text-primary-500">خدمات ما</a>
-            <a href="#why-us" class="block py-2 text-neutral-700 hover:text-primary-500">چرا ما؟</a>
-            <a href="#contact" class="block py-2 text-neutral-700 hover:text-primary-500">تماس با ما</a>
-            <a href="tel:09175391396" class="cta-button w-full text-center mt-4">مشاوره رایگان</a>
+        <div id="mobile-menu" class="hidden md:hidden border-t border-neutral-200/60">
+            <div class="px-6 pt-2 pb-4 space-y-2">
+                <a href="#services" class="block py-2 text-neutral-700 hover:text-primary-500 rounded-md hover:bg-primary-100/50 px-3">خدمات</a>
+                <a href="#process" class="block py-2 text-neutral-700 hover:text-primary-500 rounded-md hover:bg-primary-100/50 px-3">مراحل کار</a>
+                <a href="#why-us" class="block py-2 text-neutral-700 hover:text-primary-500 rounded-md hover:bg-primary-100/50 px-3">چرا ما؟</a>
+                <a href="#faq" class="block py-2 text-neutral-700 hover:text-primary-500 rounded-md hover:bg-primary-100/50 px-3">سوالات متداول</a>
+                <a href="#contact" class="block py-2 text-neutral-700 hover:text-primary-500 rounded-md hover:bg-primary-100/50 px-3">تماس با ما</a>
+                <a href="tel:09175391396" class="cta-button w-full text-center mt-4">مشاوره رایگان</a>
+            </div>
         </div>
     </header>
 
     <main>
         <!-- Hero Section -->
-        <section class="text-center py-20 px-6 bg-neutral-0">
+        <section class="text-center py-20 md:py-32 px-6 bg-neutral-0 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,var(--color-primary-100)/30%,transparent)]">
             <div class="container mx-auto">
-                <h2 class="text-4xl md:text-5xl font-bold text-neutral-900 mb-4 leading-tight">
+                <h2 class="text-4xl md:text-6xl font-extrabold text-neutral-900 mb-6 leading-tight">
                     امنیت حرفه‌ای، آرامش پایدار
                 </h2>
-                <p class="text-lg text-neutral-700 mb-8 max-w-2xl mx-auto">
-                    فروش، طراحی و نصب تخصصی دوربین‌های مداربسته و سیستم‌های امنیتی در شیراز با ضمانت ۲ ساله و پشتیبانی کامل.
+                <p class="section-subtitle !mb-10">
+                    فروش، طراحی و نصب تخصصی دوربین‌های مداربسته و سیستم‌های امنیتی در شیراز.
+                    <br class="hidden md:block">
+                    با ضمانت ۲ ساله تعویض و خدمات پس از فروش، امنیت ملک خود را به ما بسپارید.
                 </p>
-                <a href="#contact" class="cta-button text-lg">همین حالا تماس بگیرید</a>
+                <div class="flex flex-col sm:flex-row justify-center items-center gap-4">
+                    <a href="#contact" class="cta-button text-lg w-full sm:w-auto">دریافت مشاوره رایگان</a>
+                    <a href="#services" class="font-bold py-3 px-8 rounded-lg text-primary-600 transition-all duration-300 hover:bg-primary-100 w-full sm:w-auto">مشاهده خدمات</a>
+                </div>
             </div>
         </section>
 
         <!-- Services Section -->
-        <section id="services" class="py-20 px-6 bg-neutral-100 text-center">
+        <section id="services" class="py-20 px-6 bg-neutral-100/70 text-center">
             <div class="container mx-auto">
-                <h3 class="section-title">خدمات تخصصی ما</h3>
-                <p class="section-subtitle">ما راهکارهای جامع امنیتی برای منازل، ادارات و کسب‌وکارها ارائه می‌دهیم.</p>
+                <h3 class="section-title">راهکارهای جامع امنیتی</h3>
+                <p class="section-subtitle">از مشاوره و طراحی تا نصب و پشتیبانی، ما در تمام مراحل کنار شما هستیم تا بهترین سیستم امنیتی را متناسب با نیازتان پیاده‌سازی کنیم.</p>
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                    <!-- Service 1 -->
-                    <div class="feature-card text-right">
-                        <div class="flex items-center gap-4">
-                            <div class="bg-primary-100 p-3 rounded-full">
-                                <svg class="w-8 h-8 text-primary-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z"></path></svg>
-                            </div>
-                             <h4 class="text-xl font-semibold">نصب دوربین مداربسته</h4>
+                    <div class="feature-card text-right p-8">
+                        <div class="bg-primary-100 text-primary-500 rounded-xl p-4 w-fit mb-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-10 h-10"><path d="M13.25 3.003H8.25a3 3 0 0 0-3 3v12a3 3 0 0 0 3 3h7.5a3 3 0 0 0 3-3V9.752a3 3 0 0 0-.879-2.121l-4.5-4.5a3 3 0 0 0-2.121-.878ZM12.75 4.503v3.75a1.5 1.5 0 0 0 1.5 1.5h3.75a1.5 1.5 0 0 1-1.06 2.56l-5.303 1.515a1.5 1.5 0 0 1-1.88-1.88l1.515-5.303a1.5 1.5 0 0 1 2.56-1.06Z"></path></svg>
                         </div>
-                        <p class="mt-4 text-neutral-700">نصب انواع دوربین‌های دام، بولت، IP و Turbo HD با بالاترین کیفیت و دقت در جانمایی برای پوشش کامل محیط.</p>
+                        <h4 class="text-xl font-bold mb-2">نصب دوربین مداربسته</h4>
+                        <p class="text-neutral-700 leading-relaxed">نصب حرفه‌ای انواع دوربین (IP, Turbo HD, Dome, Bullet) با بهترین جانمایی برای پوشش کامل و حذف نقاط کور.</p>
                     </div>
-                    <!-- Service 2 -->
-                    <div class="feature-card text-right">
-                         <div class="flex items-center gap-4">
-                             <div class="bg-primary-100 p-3 rounded-full">
-                                <svg class="w-8 h-8 text-primary-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path></svg>
-                            </div>
-                            <h4 class="text-xl font-semibold">دزدگیر اماکن</h4>
+                    <div class="feature-card text-right p-8">
+                        <div class="bg-primary-100 text-primary-500 rounded-xl p-4 w-fit mb-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-10 h-10"><path fill-rule="evenodd" d="M12.53 2.47a.75.75 0 0 1 0 1.06l-4.72 4.72 2.47 2.47a.75.75 0 1 1-1.06 1.06l-2.47-2.47-4.72 4.72a.75.75 0 0 1-1.06-1.06l4.72-4.72-2.47-2.47a.75.75 0 0 1 1.06-1.06l2.47 2.47 4.72-4.72a.75.75 0 0 1 1.06 0Zm-4.03 9.97a.75.75 0 0 1 0-1.06l4.72-4.72a.75.75 0 0 1 1.06 1.06l-4.72 4.72-2.47-2.47a.75.75 0 0 1 1.06-1.06l2.47 2.47Zm4.03 4.03a.75.75 0 0 1-1.06 0l-4.72-4.72-2.47 2.47a.75.75 0 1 1-1.06-1.06l2.47-2.47 4.72-4.72a.75.75 0 1 1 1.06 1.06l-4.72 4.72 2.47 2.47a.75.75 0 0 1 0 1.06ZM18 12a6 6 0 1 1-12 0 6 6 0 0 1 12 0Z" clip-rule="evenodd"></path></svg>
                         </div>
-                        <p class="mt-4 text-neutral-700">طراحی و اجرای سیستم‌های اعلام سرقت هوشمند برای منازل و اماکن تجاری، با قابلیت اتصال به تلفن همراه شما.</p>
+                        <h4 class="text-xl font-bold mb-2">دزدگیر اماکن هوشمند</h4>
+                        <p class="text-neutral-700 leading-relaxed">اجرای سیستم‌های اعلام سرقت پیشرفته با سنسورهای دقیق، آژیرهای قدرتمند و قابلیت کنترل کامل از طریق اپلیکیشن موبایل.</p>
                     </div>
-                    <!-- Service 3 -->
-                    <div class="feature-card text-right">
-                        <div class="flex items-center gap-4">
-                            <div class="bg-primary-100 p-3 rounded-full">
-                                <svg class="w-8 h-8 text-primary-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z"></path></svg>
-                            </div>
-                            <h4 class="text-xl font-semibold">انتقال تصویر</h4>
+                    <div class="feature-card text-right p-8">
+                        <div class="bg-primary-100 text-primary-500 rounded-xl p-4 w-fit mb-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-10 h-10"><path d="M7.5 7.5a.75.75 0 0 0-1.5 0v5.379a5.96 5.96 0 0 0 1.5-.386V7.5ZM8.625 13.5a.75.75 0 0 0-1.5 0v.135a4.48 4.48 0 0 0 1.5.054v-.189Zm-2.625 2.25a.75.75 0 0 0-1.5 0v.51a4.507 4.507 0 0 0 1.5.056v-.566Zm16.5 2.25a.75.75 0 0 0 .75-.75V9a.75.75 0 0 0-.75-.75h-6a.75.75 0 0 0-.75.75v8.25a.75.75 0 0 0 .75.75h6ZM18.75 9.75h4.5v6.52a3.001 3.001 0 0 1-1.28 2.23L18.75 16.25V9.75ZM2.25 15a.75.75 0 0 0 .75.75h.03a4.512 4.512 0 0 1 0-9.024H3a.75.75 0 0 0-.75.75v7.5ZM17.25 18H3.75A2.25 2.25 0 0 1 1.5 15.75V6.75A2.25 2.25 0 0 1 3.75 4.5h13.5A2.25 2.25 0 0 1 19.5 6.75V15a3.75 3.75 0 0 1-2.25 3.466V18Z"></path></svg>
                         </div>
-                        <p class="mt-4 text-neutral-700">راه‌اندازی قابلیت مشاهده زنده و بازپخش تصاویر دوربین‌ها از هر کجای دنیا بر روی موبایل، تبلت یا کامپیوتر.</p>
+                        <h4 class="text-xl font-bold mb-2">انتقال تصویر روی موبایل</h4>
+                        <p class="text-neutral-700 leading-relaxed">مشاهده زنده تصاویر و بازبینی ویدیوهای ضبط شده از هر کجای دنیا، بر روی موبایل، تبلت یا کامپیوتر شما با بالاترین سرعت.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Process Section -->
+        <section id="process" class="py-20 px-6 bg-neutral-0">
+            <div class="container mx-auto text-center">
+                <h3 class="section-title">فرایند همکاری با ما</h3>
+                <p class="section-subtitle">ما یک فرایند شفاف و ۴ مرحله‌ای داریم تا اطمینان حاصل کنیم که شما بهترین خدمات را دریافت می‌کنید.</p>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 text-right">
+                    <div class="relative p-6">
+                        <div class="flex items-center gap-4">
+                            <div class="flex items-center justify-center w-12 h-12 rounded-full bg-secondary-100 text-secondary-600 font-bold text-xl">۱</div>
+                            <h4 class="font-bold text-lg">مشاوره و بازدید</h4>
+                        </div>
+                        <p class="mt-4 text-neutral-700">تماس بگیرید و نیازهای خود را مطرح کنید. کارشناسان ما برای بازدید از محل و ارائه مشاوره تخصصی رایگان حاضر می‌شوند.</p>
+                    </div>
+                    <div class="relative p-6">
+                        <div class="flex items-center gap-4">
+                            <div class="flex items-center justify-center w-12 h-12 rounded-full bg-secondary-100 text-secondary-600 font-bold text-xl">۲</div>
+                            <h4 class="font-bold text-lg">طراحی و پیش‌فاکتور</h4>
+                        </div>
+                        <p class="mt-4 text-neutral-700">بر اساس نیازسنجی، طرحی دقیق از جانمایی تجهیزات به همراه پیش‌فاکتور شفاف به شما ارائه می‌گردد.</p>
+                    </div>
+                     <div class="relative p-6">
+                        <div class="flex items-center gap-4">
+                            <div class="flex items-center justify-center w-12 h-12 rounded-full bg-secondary-100 text-secondary-600 font-bold text-xl">۳</div>
+                            <h4 class="font-bold text-lg">نصب و راه‌اندازی</h4>
+                        </div>
+                        <p class="mt-4 text-neutral-700">تیم فنی ما در زمان تعیین شده، با بالاترین کیفیت و دقت، سیستم امنیتی شما را نصب و راه‌اندازی می‌کنند.</p>
+                    </div>
+                     <div class="relative p-6">
+                        <div class="flex items-center gap-4">
+                            <div class="flex items-center justify-center w-12 h-12 rounded-full bg-secondary-100 text-secondary-600 font-bold text-xl">۴</div>
+                            <h4 class="font-bold text-lg">آموزش و پشتیبانی</h4>
+                        </div>
+                        <p class="mt-4 text-neutral-700">پس از نصب، نحوه کار با سیستم به شما آموزش داده می‌شود و از پشتیبانی کامل ما بهره‌مند خواهید شد.</p>
                     </div>
                 </div>
             </div>
         </section>
 
         <!-- Why Us Section -->
-        <section id="why-us" class="py-20 px-6 bg-neutral-0 text-center">
+        <section id="why-us" class="py-20 px-6 bg-neutral-100/70">
             <div class="container mx-auto">
-                <h3 class="section-title">چرا مشتریان ما را انتخاب می‌کنند؟</h3>
-                <p class="section-subtitle">تعهد ما به کیفیت، ضمانت و پشتیبانی، وجه تمایز ماست.</p>
-                <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
-                     <!-- Benefit 1 -->
-                    <div class="bg-secondary-100 p-6 rounded-lg">
-                        <h4 class="text-xl font-semibold text-secondary-900 mb-2">ضمانت ۲ ساله تعویض</h4>
-                        <p class="text-secondary-800">با خیال راحت خرید کنید. تمامی تجهیزات ما شامل دو سال گارانتی بی‌قیدوشرط تعویض می‌باشند.</p>
+                <div class="text-center">
+                    <h3 class="section-title">چرا مشتریان ما را انتخاب می‌کنند؟</h3>
+                    <p class="section-subtitle">تعهد ما به کیفیت، ضمانت معتبر و پشتیبانی واقعی، دلیل اعتماد مشتریان به ماست.</p>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+                    <div class="feature-card text-center p-8">
+                        <div class="mx-auto bg-secondary-100 text-secondary-500 rounded-full p-4 w-fit mb-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-8 h-8"><path fill-rule="evenodd" d="M9.401 3.003c1.155.0-2.262.0-3.369.0C2.698 3.003 0 5.701 0 9.036c0 3.335 2.698 6.033 6.032 6.033 1.107 0 2.214 0 3.369.0a.75.75 0 0 1 .75.75v1.866c0 .75.6 1.35 1.35 1.35h1.5c.75 0 1.35-.6 1.35-1.35v-1.866a.75.75 0 0 1 .75-.75c1.107 0 2.214.0 3.369.0 3.335 0 6.032-2.698 6.032-6.033.0-3.335-2.698-6.033-6.032-6.033-1.107.0-2.214.0-3.369.0a.75.75 0 0 1-.75-.75V.38a.75.75 0 0 1-1.5 0v1.873a.75.75 0 0 1-.75.75ZM10.5 6.003a.75.75 0 0 1 .75-.75h1.5a.75.75 0 0 1 0 1.5h-1.5a.75.75 0 0 1-.75-.75Zm-4.5 3a.75.75 0 0 1 .75-.75h1.5a.75.75 0 0 1 0 1.5h-1.5a.75.75 0 0 1-.75-.75Zm-.75 3.75a.75.75 0 0 0 0 1.5h1.5a.75.75 0 0 0 0-1.5h-1.5Zm12-3.75a.75.75 0 0 1 .75-.75h1.5a.75.75 0 0 1 0 1.5h-1.5a.75.75 0 0 1-.75-.75Zm-.75 3.75a.75.75 0 0 0 0 1.5h1.5a.75.75 0 0 0 0-1.5h-1.5Z" clip-rule="evenodd"></path></svg>
+                        </div>
+                        <h4 class="text-xl font-bold mb-2">ضمانت ۲ ساله تعویض</h4>
+                        <p class="text-neutral-700">با خیال آسوده خرید کنید. تمامی تجهیزات ما شامل دو سال گارانتی بی‌قید و شرط تعویض می‌باشند.</p>
                     </div>
-                     <!-- Benefit 2 -->
-                    <div class="bg-secondary-100 p-6 rounded-lg">
-                        <h4 class="text-xl font-semibold text-secondary-900 mb-2">خدمات پس از فروش</h4>
-                        <p class="text-secondary-800">پس از نصب نیز همراه شما هستیم. تیم پشتیبانی ما آماده پاسخگویی و رفع مشکلات احتمالی است.</p>
+                    <div class="feature-card text-center p-8">
+                        <div class="mx-auto bg-secondary-100 text-secondary-500 rounded-full p-4 w-fit mb-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-8 h-8"><path fill-rule="evenodd" d="M11.078 2.25c-.917 0-1.699.663-1.85 1.542L6.36 15.878a.75.75 0 0 0 .54.917.75.75 0 0 0 .917-.54l2.87-11.482a.75.75 0 0 1 1.45.364L14.45 15.88a.75.75 0 0 0 .54.917.75.75 0 0 0 .917-.54l2.87-11.482a.75.75 0 0 1 1.45.364l-2.09 8.356a3.375 3.375 0 0 1-6.591 1.574L11.078 2.25Z" clip-rule="evenodd"></path><path d="M12 21.75a9.75 9.75 0 1 0 0-19.5 9.75 9.75 0 0 0 0 19.5Z"></path></svg>
+                        </div>
+                        <h4 class="text-xl font-bold mb-2">پشتیبانی و خدمات پس از فروش</h4>
+                        <p class="text-neutral-700">پس از نصب نیز همراه شما هستیم. تیم پشتیبانی ما به سرعت آماده پاسخگویی و رفع هرگونه مشکل احتمالی است.</p>
                     </div>
-                     <!-- Benefit 3 -->
-                    <div class="bg-secondary-100 p-6 rounded-lg">
-                        <h4 class="text-xl font-semibold text-secondary-900 mb-2">تیم متخصص و مجرب</h4>
-                        <p class="text-secondary-800">کارشناسان ما با تجربه بالا، بهترین طراحی و مشاوره را متناسب با نیاز و بودجه شما ارائه می‌دهند.</p>
+                    <div class="feature-card text-center p-8">
+                        <div class="mx-auto bg-secondary-100 text-secondary-500 rounded-full p-4 w-fit mb-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-8 h-8"><path d="M4.5 6.375a.75.75 0 0 1 .75-.75h13.5a.75.75 0 0 1 .75.75v9a.75.75 0 0 1-.75.75h-13.5a.75.75 0 0 1-.75-.75v-9Zm15-.75a2.25 2.25 0 0 1 2.25 2.25v9a2.25 2.25 0 0 1-2.25 2.25h-13.5A2.25 2.25 0 0 1 3 17.625v-9A2.25 2.25 0 0 1 5.25 6.375h13.5Z M5.25 20.25h13.5a.75.75 0 0 1 0 1.5h-13.5a.75.75 0 0 1 0-1.5Z"></path></svg>
+                        </div>
+                        <h4 class="text-xl font-bold mb-2">تیم متخصص و مجرب</h4>
+                        <p class="text-neutral-700">کارشناسان ما با تجربه بالا، بهترین راهکار را متناسب با نیاز و بودجه شما طراحی و پیشنهاد می‌کنند.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Testimonials Section -->
+        <section id="testimonials" class="py-20 px-6 bg-neutral-0">
+            <div class="container mx-auto">
+                <div class="text-center">
+                    <h3 class="section-title">مشتریان ما چه می‌گویند؟</h3>
+                    <p class="section-subtitle">اعتماد شما، بزرگترین سرمایه ماست. نظرات برخی از مشتریان عزیز ما را در ادامه بخوانید.</p>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <div class="feature-card p-8 text-right">
+                        <p class="text-neutral-700 italic leading-relaxed">"بسیار حرفه‌ای و خوش‌قول. کیفیت دوربین‌ها عالیه و انتقال تصویر روی موبایل بدون قطعی کار می‌کنه. ممنونم از تیم برادران عسکری."</p>
+                        <div class="mt-4 font-bold text-neutral-900">— جناب آقای رضایی، مدیر ساختمان</div>
+                    </div>
+                    <div class="feature-card p-8 text-right">
+                        <p class="text-neutral-700 italic leading-relaxed">"برای ویلای باغمون دزدگیر و دوربین نصب کردند. الان با خیال راحت میتونیم از راه دور همه چیز رو کنترل کنیم. پشتیبانی‌شون هم واقعا عالیه."</p>
+                        <div class="mt-4 font-bold text-neutral-900">— خانواده محترم محمدی</div>
+                    </div>
+                    <div class="feature-card p-8 text-right">
+                        <p class="text-neutral-700 italic leading-relaxed">"از مشاوره اولیه تا نصب نهایی، همه چیز عالی بود. قیمت‌ها منصفانه بود و کیفیت کار بسیار بالا. حتما به دوستانم هم معرفی می‌کنم."</p>
+                        <div class="mt-4 font-bold text-neutral-900">— مدیریت فروشگاه زنجیره‌ای</div>
                     </div>
                 </div>
             </div>
         </section>
 
+        <!-- FAQ Section -->
+        <section id="faq" class="py-20 px-6 bg-neutral-100/70">
+            <div class="container mx-auto max-w-4xl">
+                <div class="text-center">
+                    <h3 class="section-title">سوالات متداول</h3>
+                    <p class="section-subtitle">پاسخ برخی از سوالات پرتکرار مشتریان را در اینجا گردآوری کرده‌ایم.</p>
+                </div>
+                <div class="space-y-4">
+                    <details class="bg-neutral-0 p-6 rounded-lg shadow-sm border border-neutral-200/50 cursor-pointer">
+                        <summary class="flex justify-between items-center font-semibold text-lg">
+                            آیا مشاوره و بازدید از محل هزینه دارد؟
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5 chevron"><path fill-rule="evenodd" d="M5.22 8.22a.75.75 0 0 1 1.06 0L10 11.94l3.72-3.72a.75.75 0 1 1 1.06 1.06l-4.25 4.25a.75.75 0 0 1-1.06 0L5.22 9.28a.75.75 0 0 1 0-1.06Z" clip-rule="evenodd"></path></svg>
+                        </summary>
+                        <p class="mt-4 text-neutral-700 leading-relaxed">خیر، بازدید از محل، کارشناسی و ارائه مشاوره تخصصی برای انتخاب بهترین سیستم امنیتی کاملاً رایگان است.</p>
+                    </details>
+                    <details class="bg-neutral-0 p-6 rounded-lg shadow-sm border border-neutral-200/50 cursor-pointer">
+                        <summary class="flex justify-between items-center font-semibold text-lg">
+                            گارانتی و خدمات پس از فروش به چه صورت است؟
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5 chevron"><path fill-rule="evenodd" d="M5.22 8.22a.75.75 0 0 1 1.06 0L10 11.94l3.72-3.72a.75.75 0 1 1 1.06 1.06l-4.25 4.25a.75.75 0 0 1-1.06 0L5.22 9.28a.75.75 0 0 1 0-1.06Z" clip-rule="evenodd"></path></svg>
+                        </summary>
+                        <p class="mt-4 text-neutral-700 leading-relaxed">تمامی دستگاه‌ها و تجهیزات نصب شده توسط ما دارای ۲ سال گارانتی تعویض بی‌قید و شرط هستند. همچنین خدمات پس از فروش و پشتیبانی فنی ما همواره در دسترس شماست.</p>
+                    </details>
+                    <details class="bg-neutral-0 p-6 rounded-lg shadow-sm border border-neutral-200/50 cursor-pointer">
+                        <summary class="flex justify-between items-center font-semibold text-lg">
+                            آیا امکان مشاهده تصاویر از راه دور وجود دارد؟
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5 chevron"><path fill-rule="evenodd" d="M5.22 8.22a.75.75 0 0 1 1.06 0L10 11.94l3.72-3.72a.75.75 0 1 1 1.06 1.06l-4.25 4.25a.75.75 0 0 1-1.06 0L5.22 9.28a.75.75 0 0 1 0-1.06Z" clip-rule="evenodd"></path></svg>
+                        </summary>
+                        <p class="mt-4 text-neutral-700 leading-relaxed">بله، یکی از خدمات اصلی ما راه‌اندازی سیستم انتقال تصویر (P2P) است که به شما اجازه می‌دهد تصاویر دوربین‌ها را به صورت زنده یا ضبط شده از هر نقطه‌ای در جهان روی موبایل یا کامپیوتر خود مشاهده کنید.</p>
+                    </details>
+                </div>
+            </div>
+        </section>
+
         <!-- Contact Section -->
-        <section id="contact" class="py-20 px-6 bg-neutral-100">
+        <section id="contact" class="py-20 px-6 bg-neutral-0">
             <div class="container mx-auto text-center">
-                <h3 class="section-title">با ما در تماس باشید</h3>
-                <p class="section-subtitle">برای دریافت مشاوره رایگان و استعلام قیمت، از راه‌های زیر با ما در ارتباط باشید.</p>
-                <div class="max-w-4xl mx-auto bg-neutral-0 rounded-xl shadow-lg p-8">
-                    <div class="grid grid-cols-1 md:grid-cols-2 gap-10 text-right">
-                        <!-- Contact Info -->
+                <h3 class="section-title">امنیت شما، تخصص ماست</h3>
+                <p class="section-subtitle">برای دریافت مشاوره رایگان و استعلام قیمت، همین حالا با کارشناسان ما تماس بگیرید. ما آماده پاسخگویی هستیم.</p>
+                <div class="max-w-5xl mx-auto bg-neutral-0 rounded-2xl shadow-xl border border-neutral-200/50 p-8 md:p-12">
+                    <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 text-right">
                         <div>
-                            <h4 class="font-bold text-xl mb-4">اطلاعات تماس</h4>
-                            <div class="space-y-4">
-                                <div>
-                                    <h5 class="font-semibold text-neutral-700">تلفن‌های همراه:</h5>
-                                    <div class="flex flex-col items-start mt-2">
-                                        <a href="tel:09175391396" class="text-primary-500 hover:underline">09175391396</a>
-                                        <a href="tel:09171967436" class="text-primary-500 hover:underline">09171967436</a>
-                                        <a href="tel:09170262758" class="text-primary-500 hover:underline">09170262758</a>
+                            <h4 class="font-bold text-2xl mb-6">اطلاعات تماس و آدرس</h4>
+                            <div class="space-y-6">
+                                <div class="flex items-start gap-4">
+                                    <div class="mt-1 flex-shrink-0 text-primary-500"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6"><path d="M10.5 18.75a.75.75 0 0 0 0 1.5h3a.75.75 0 0 0 0-1.5h-3Z"></path><path fill-rule="evenodd" d="M8.625.75A3.375 3.375 0 0 0 5.25 4.125v15.75a3.375 3.375 0 0 0 3.375 3.375h6.75a3.375 3.375 0 0 0 3.375-3.375V4.125A3.375 3.375 0 0 0 15.375.75h-6.75ZM7.5 4.125C7.5 3.504 8.004 3 8.625 3h6.75c.621 0 1.125.504 1.125 1.125v15.75c0 .621-.504 1.125-1.125 1.125h-6.75A1.125 1.125 0 0 1 7.5 19.875V4.125Z" clip-rule="evenodd"></path></svg></div>
+                                    <div>
+                                        <h5 class="font-semibold text-neutral-700">تلفن‌های همراه:</h5>
+                                        <div class="flex flex-col items-start mt-1 text-lg">
+                                            <a href="tel:09175391396" class="text-primary-600 hover:underline font-semibold">0917-539-1396</a>
+                                            <a href="tel:09171967436" class="text-neutral-800 hover:underline">0917-196-7436</a>
+                                        </div>
                                     </div>
                                 </div>
-                                 <div>
-                                    <h5 class="font-semibold text-neutral-700">تلفن ثابت:</h5>
-                                    <a href="tel:07138239747" class="text-primary-500 hover:underline">071-38239747</a>
+                                <div class="flex items-start gap-4">
+                                    <div class="mt-1 flex-shrink-0 text-primary-500"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6"><path fill-rule="evenodd" d="M1.5 4.5a3 3 0 0 1 3-3h1.372c.86 0 1.61.586 1.819 1.42l1.105 4.423a1.875 1.875 0 0 1-.694 1.955l-1.293.97c-.135.101-.164.279-.087.431l4.108 7.293a.414.414 0 0 0 .431.087l.97-1.293a1.875 1.875 0 0 1 1.955-.694l4.423 1.105c.834.209 1.42.959 1.42 1.819V19.5a3 3 0 0 1-3 3h-2.25C8.552 22.5 1.5 15.448 1.5 6.75V4.5Z" clip-rule="evenodd"></path></svg></div>
+                                    <div>
+                                        <h5 class="font-semibold text-neutral-700">تلفن ثابت:</h5>
+                                        <a href="tel:07138239747" class="text-neutral-800 hover:underline text-lg">071-38239747</a>
+                                    </div>
                                 </div>
-                                <div>
-                                    <h5 class="font-semibold text-neutral-700">واتس‌اپ:</h5>
-                                    <a href="https://wa.me/989175391396" target="_blank" class="text-primary-500 hover:underline">09175391396</a>
-                                </div>
-                                <div>
-                                    <h5 class="font-semibold text-neutral-700">آدرس:</h5>
-                                    <p>شیراز، بلوار سرباز، حدفاصل کوچه ۱۰ و ۱۲، کوچه ۱۲-الف، پلاک ۸۵ (طبقه دوم)</p>
-                                </div>
-                                <div>
-                                    <h5 class="font-semibold text-neutral-700">اینستاگرام:</h5>
-                                    <a href="https://www.instagram.com/askari_cctv" target="_blank" class="text-primary-500 hover:underline">@askari_cctv</a>
+                                <div class="flex items-start gap-4">
+                                     <div class="mt-1 flex-shrink-0 text-primary-500"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6"><path fill-rule="evenodd" d="M11.54 22.351l.07.04.028.016a.76.76 0 0 0 .723 0l.028-.015.071-.041a16.975 16.975 0 0 0 5.169-4.408 1.824 1.824 0 0 0 .003-1.929l-3.58-6.195a1.824 1.824 0 0 0-3.202 0l-3.58 6.195a1.824 1.824 0 0 0 .002 1.929 16.975 16.975 0 0 0 5.169 4.408Zm-.16-4.695a1.823 1.823 0 0 0 2.24 0l.003-.002a15.478 15.478 0 0 0 4.29-3.578l-3.13-5.42a.375.375 0 0 0-.648 0l-3.132 5.42a15.478 15.478 0 0 0 4.29 3.578Z" clip-rule="evenodd"></path><path d="M12 2.25a.75.75 0 0 1 .75.75v6a.75.75 0 0 1-1.5 0V3a.75.75 0 0 1 .75-.75Z"></path><path d="M12.75 11.25a.75.75 0 0 1-.75.75h-1.5a.75.75 0 0 1 0-1.5h1.5a.75.75 0 0 1 .75.75Z"></path></svg></div>
+                                    <div>
+                                        <h5 class="font-semibold text-neutral-700">آدرس:</h5>
+                                        <p class="text-neutral-800 text-lg">شیراز، بلوار سرباز، حدفاصل کوچه ۱۰ و ۱۲، کوچه ۱۲-الف، پلاک ۸۵ (طبقه دوم)</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <!-- Working Hours -->
                         <div>
-                            <h4 class="font-bold text-xl mb-4">ساعات کاری</h4>
-                            <ul class="space-y-3 list-disc list-inside marker:text-secondary-500">
-                                <li><strong>شنبه تا چهارشنبه:</strong> 08:30 – 16:30</li>
-                                <li><strong>پنج‌شنبه:</strong> 08:30 – 12:30</li>
-                                <li><strong>جمعه:</strong> تعطیل</li>
+                             <h4 class="font-bold text-2xl mb-6">ساعات کاری</h4>
+                             <ul class="space-y-4 list-none text-lg">
+                                <li class="flex justify-between"><span>شنبه تا چهارشنبه:</span> <strong class="font-semibold">08:30 – 16:30</strong></li>
+                                <li class="flex justify-between"><span>پنج‌شنبه:</span> <strong class="font-semibold">08:30 – 12:30</strong></li>
+                                <li class="flex justify-between"><span>جمعه:</span> <strong class="font-semibold text-red-600">تعطیل</strong></li>
                             </ul>
-                            <div class="mt-8">
-                                <a href="tel:09175391396" class="cta-button w-full text-center">تماس فوری</a>
+                            <div class="mt-8 pt-8 border-t border-neutral-200/80">
+                                <p class="text-neutral-700 mb-4">آماده‌اید امنیت را جدی بگیرید؟</p>
+                                <a href="tel:09175391396" class="cta-button w-full text-center text-lg">تماس فوری برای مشاوره</a>
                             </div>
                         </div>
                     </div>
@@ -213,23 +368,44 @@
         </section>
     </main>
 
+    <!-- Floating Action Button -->
+    <a href="https://wa.me/989175391396" target="_blank" rel="noopener noreferrer" class="fixed bottom-6 left-6 z-50 bg-[#25D366] text-white p-4 rounded-full shadow-lg transition-transform transform hover:scale-110">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-8 h-8"><path d="M16.634 14.397c-.246-.14-1.42-.702-1.643-.783-.223-.081-.384-.121-.545.121-.161.242-.622.783-.763.944-.141.161-.282.181-.529.061-.247-.121-.998-.368-1.9-1.173-.711-.61-1.189-1.365-1.33-1.606-.141-.242-.014-.378.107-.509.109-.121.243-.304.364-.425s.161-.243.242-.404c.081-.161.04-.304-.02-.425-.061-.121-.545-1.306-.748-1.79-.192-.464-.395-.404-.545-.404-.141,0-.303-.02-.464-.02s-.425.06-.647.303c-.223.243-.868.845-.868,2.054s.889,2.376,1.01,2.537c.121.161,1.745,2.662,4.229,3.719,2.484,1.057,2.484.704,2.924.683.44-.02,1.42-.582,1.619-1.144.199-.562.199-1.037.14-1.144-.06-.101-.222-.161-.468-.303Z"></path><path d="M12.001 2.002a9.99,9.99,0,0,0-9.284,14.33l-1.62,5.922,6.075-1.583a9.995,9.995,0,1,0,4.829-18.669Zm0,18.156a8.16,8.16,0,0,1-4.14-1.141l-.29-.17-3.08,0.8,0.82-3.01-.19-.3a8.16,8.16,0,1,1,6.88-4.34Z"></path></svg>
+    </a>
+
     <!-- Footer -->
-    <footer class="bg-neutral-900 text-neutral-200 py-6">
+    <footer class="bg-neutral-900 text-neutral-300 py-8">
         <div class="container mx-auto px-6 text-center">
              <p>&copy; <span id="year"></span> تمامی حقوق برای دوربین مداربسته برادران عسکری محفوظ است.</p>
+             <p class="text-sm text-neutral-400 mt-2">طراحی و توسعه توسط هوش مصنوعی</p>
         </div>
     </footer>
     
     <script>
-        // Mobile menu toggle
-        const mobileMenuButton = document.getElementById('mobile-menu-button');
-        const mobileMenu = document.getElementById('mobile-menu');
-        mobileMenuButton.addEventListener('click', () => {
-            mobileMenu.classList.toggle('hidden');
-        });
+        document.addEventListener('DOMContentLoaded', function() {
+            // Mobile menu toggle
+            const mobileMenuButton = document.getElementById('mobile-menu-button');
+            const mobileMenu = document.getElementById('mobile-menu');
+            if (mobileMenuButton && mobileMenu) {
+                mobileMenuButton.addEventListener('click', () => {
+                    mobileMenu.classList.toggle('hidden');
+                });
+            }
 
-        // Set current year in footer
-        document.getElementById('year').textContent = new Date().getFullYear();
+            // Close mobile menu when a link is clicked
+            const mobileMenuLinks = mobileMenu.querySelectorAll('a');
+            mobileMenuLinks.forEach(link => {
+                link.addEventListener('click', () => {
+                    mobileMenu.classList.add('hidden');
+                });
+            });
+
+            // Set current year in footer
+            const yearSpan = document.getElementById('year');
+            if(yearSpan) {
+                yearSpan.textContent = new Date().getFullYear();
+            }
+        });
     </script>
 
 </body>
