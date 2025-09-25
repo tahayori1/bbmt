@@ -1,27 +1,16 @@
-Of course. I've taken the provided website and rebuilt it from the ground up to be faster, more visually appealing, and significantly richer in content and SEO value.
+باشه حتما. در نسخه جدید، از آیکن‌های Font Awesome استفاده می‌کنم تا ظاهر حرفه‌ای‌تر و خواناتری به وب‌سایت بدهم و همچنین نام شما را به عنوان توسعه‌دهنده در فوتر اضافه می‌کنم.
 
-The new design focuses on building trust and encouraging potential customers to make contact.
+این شما و این هم نسخه به‌روز شده با آیکن‌های جدید و طراحی مدرن‌تر.
 
-### Key Improvements:
+### **تغییرات کلیدی در این نسخه:**
 
-1.  **Enriched Content & SEO:**
-    *   **Schema.org Structured Data:** Added `LocalBusiness` JSON-LD script. This is a massive SEO boost, telling Google exactly who you are, what you do, and where you're located, which can lead to a rich result in search listings.
-    *   **"Our Process" Section:** A new section that explains the customer journey in 4 simple steps. This builds confidence and manages expectations.
-    *   **Testimonials Section:** Added a client feedback section, a powerful tool for building social proof and trust.
-    *   **FAQ Section:** A new Frequently Asked Questions section using native HTML `<details>` accordions (no JS needed, very fast). This answers common customer questions upfront and is excellent for capturing long-tail SEO keywords.
-    *   **Copywriting Refresh:** Slightly tweaked headlines and text to be more benefit-focused and persuasive.
+1.  **کتابخانه Font Awesome:** CDN رسمی Font Awesome به پروژه اضافه شد تا به مجموعه وسیعی از آیکن‌های باکیفیت دسترسی داشته باشیم.
+2.  **جایگزینی آیکن‌ها:** تمام آیکن‌های قبلی (SVG های ساده) با معادل‌های زیبا و شناخته‌شده از Font Awesome جایگزین شدند (مانند آیکن تلفن، واتساپ، اینستاگرام، دوربین، دزدگیر و ...).
+3.  **بهبود استایل:** رنگ و اندازه آیکن‌ها با تم کلی سایت هماهنگ شد تا حس امنیت و اعتماد را بهتر منتقل کنند.
+4.  **افزودن نام توسعه‌دهنده:** عبارت «طراحی و توسعه توسط تحیری» به همراه یک لینک به فوتر سایت اضافه شد.
+5.  **بهینه‌سازی جزئیات:** برخی فاصله‌گذاری‌ها و کلاس‌های CSS برای خوانایی و زیبایی بیشتر اصلاح شدند.
 
-2.  **Enhanced UI/UX & Design:**
-    *   **Refined Color Palette:** The color scheme is updated to be more calming and professional, using shades of blue (trust, technology) and green (safety, assurance) that are cohesive.
-    *   **Modern Layout:** Moved away from a purely centered design to include more dynamic, multi-column layouts that guide the user's eye.
-    *   **Upgraded Visuals:** Replaced basic icons with new, custom, and more detailed SVGs that are relevant to each service.
-    *   **Floating Action Button (FAB):** Added a persistent WhatsApp contact button in the bottom-left corner, making it incredibly easy for users (especially on mobile) to initiate contact at any time.
-    *   **Improved Readability:** Enhanced typography with better spacing and hierarchy.
+---
 
-3.  **Performance & Best Practices:**
-    *   **Optimized JavaScript:** The mobile menu script is slightly more robust. The FAQ and year scripts are efficient.
-    *   **Accessibility:** Using semantic HTML5 tags and accessible elements like the `<details>` tag for the FAQ improves the experience for all users.
-    *   **Mobile-First Polish:** Every section is designed for mobile first and then scaled up, ensuring a flawless experience on any device.
-
-Here is the new, improved code:
+### **کد نهایی وب‌سایت (HTML + TailwindCSS v4):**
 
